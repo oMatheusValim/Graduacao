@@ -8,5 +8,3 @@ x2 = int(d2[0])
 y2 = int(d2[1])
 distância = math.sqrt((x1-x2)**2+(y1-y2)**2)
 print(distância)
-
-# enunciado errado

@@ -19,5 +19,3 @@ bigramas = [(frase2[i], frase2 [i+1]) for i in range(len(frase2) - 1)]
 numerobig = Counter (bigramas)
 for bigrama, contagem in numerobig.items():
     print(f'{bigrama[0]} {bigrama[1]}: {contagem}')
-
-# FEITO

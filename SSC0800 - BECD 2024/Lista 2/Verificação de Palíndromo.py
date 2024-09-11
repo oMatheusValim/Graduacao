@@ -30,5 +30,3 @@ else:
         print("É palíndromo")
     else:
         print("Não é palíndromo")
-
-# FEITO

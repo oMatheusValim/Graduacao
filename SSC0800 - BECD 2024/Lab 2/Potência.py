@@ -11,5 +11,3 @@ else:
         potencia *= n1
         i += 1
 print(potencia)
-
-# FEITO

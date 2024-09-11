@@ -28,6 +28,3 @@ else:
             break
         else: 
             i += 1
-            
-# FEITO
-    

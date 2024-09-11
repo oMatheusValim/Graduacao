@@ -15,5 +15,3 @@ else:
         soma = lista[-1] + lista[-2]
         lista.append(soma)
     print(" ".join(map(str, lista)))
-
-# FEITO

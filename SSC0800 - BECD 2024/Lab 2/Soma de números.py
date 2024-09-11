@@ -15,5 +15,3 @@ while x <= y:
     soma += x
     x += 1
 print(soma)
-
-# FEITO

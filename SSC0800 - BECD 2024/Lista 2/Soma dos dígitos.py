@@ -20,5 +20,3 @@ while i < len(separa):
     soma += int(separa[i])
     i += 1
 print(soma)
-
-# FEITO

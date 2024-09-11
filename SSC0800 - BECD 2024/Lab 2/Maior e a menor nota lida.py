@@ -9,5 +9,3 @@ ordem = sorted(lista)
 menor = ordem[0]
 maior = ordem[len(ordem)-1]
 print(maior, menor)
-
-# FEITO

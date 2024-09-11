@@ -15,5 +15,3 @@ if frase_mod2 == frase_invert:
     print("Sim")
 else: 
     print("Não")
-    
-# FEITO

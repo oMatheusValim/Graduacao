@@ -14,5 +14,3 @@ n3 = entrada [2]
 n1_mod, n2_mod, n3_mod = map(int, entrada)
 media = (n1_mod+n2_mod+n3_mod)/3
 print('%.1f' %(media))
-
-# FEITO

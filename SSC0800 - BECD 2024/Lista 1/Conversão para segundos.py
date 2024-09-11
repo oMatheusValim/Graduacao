@@ -12,5 +12,3 @@ hora = (int(horario[0]))*3600
 minuto = (int(horario[1]))*60
 segundo = (int(horario[2]))
 print(hora+minuto+segundo)
-
-# FEITO

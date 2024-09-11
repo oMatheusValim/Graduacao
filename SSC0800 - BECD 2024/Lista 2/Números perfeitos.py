@@ -34,5 +34,3 @@ else:
         print(" ".join(map(str, numeros_perfeitos)))
     else: 
         print("Nenhum número perfeito encontrado")
-        
-# FEITO

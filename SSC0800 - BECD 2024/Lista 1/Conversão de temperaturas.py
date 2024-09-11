@@ -19,5 +19,3 @@ if 9*celsius%5==0:
     print ('%.d F\n%.d K'%(temp_farenheit, temp_kelvin))
 else:
     print (f'{temp_farenheit} F\n{temp_kelvin} K')
-    
-#FEITO

@@ -25,5 +25,3 @@ entrada = input().strip()
 resultado = contar_frequencia(entrada)
 for letras, contagem in resultado.items():
     print(f"{letras}: {contagem}")
-    
-# FEITO

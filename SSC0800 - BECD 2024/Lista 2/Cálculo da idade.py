@@ -24,5 +24,3 @@ elif diferenca.days == 1:
     print(f"{diferenca.years} anos, {diferenca.months} meses e {diferenca.days} dia")
 else:
     print(f"{diferenca.years} anos, {diferenca.months} meses e {diferenca.days} dias")
-    
-# FEITO

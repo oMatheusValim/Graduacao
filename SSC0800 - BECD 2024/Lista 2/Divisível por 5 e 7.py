@@ -19,5 +19,3 @@ for j in numeros:
     if j%7==0 and j%5==0:
         divi.append(str(j))
 print(",".join(divi))
-
-# FEITO

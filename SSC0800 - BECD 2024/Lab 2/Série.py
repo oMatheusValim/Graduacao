@@ -7,6 +7,4 @@ while a != 99 and b != 50:
   a += 2
   b += 1
   soma += a/b
-print(soma)
-
-# FEITO    
+print(soma) 

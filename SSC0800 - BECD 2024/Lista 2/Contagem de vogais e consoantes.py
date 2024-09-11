@@ -38,5 +38,3 @@ for i in entrada:
     n_conso += quant_conso(i)
     
 print(f"Vogais: {n_vogais}\nConsoantes: {n_conso}")
-
-# FEITO

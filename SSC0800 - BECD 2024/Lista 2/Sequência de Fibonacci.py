@@ -17,4 +17,3 @@ else:
     print(" ".join(map(str, lista)))
 
 # FEITO
-# No run.codes consta que o caso 1 está errado, mas é um caractere vazio

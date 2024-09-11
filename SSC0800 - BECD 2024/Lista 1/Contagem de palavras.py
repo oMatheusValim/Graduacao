@@ -18,5 +18,3 @@ from collections import Counter
 contagem_palavras = Counter(frase)
 for frase, contagem in contagem_palavras.items():
     print(f'{frase}: {contagem}')
-    
-# FEITO

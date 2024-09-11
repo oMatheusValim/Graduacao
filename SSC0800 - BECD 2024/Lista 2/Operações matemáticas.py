@@ -65,5 +65,3 @@ else:
     
     if resultado is not None:
         print(resultado)
-        
-# FEITO

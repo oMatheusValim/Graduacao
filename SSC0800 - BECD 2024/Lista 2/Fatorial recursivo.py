@@ -25,5 +25,3 @@ if entrada < 0:
 else:
     resultado = fatorial(entrada)
     print(resultado)
-
-# FEITO

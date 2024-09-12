@@ -9,7 +9,7 @@
 lista = [0, 1]
 posi = int(input())
 if posi == 1:
-    print()
+    print(0)
 else:
     while len(lista) < posi:
         soma = lista[-1] + lista[-2]

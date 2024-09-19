@@ -1,0 +1,1 @@
+# Crie uma função recursiva que inverta ordem dos elementos presentes em um vetor com 10 inteiros. Leia os valores do vetor, execute a função e imprima o vetor.

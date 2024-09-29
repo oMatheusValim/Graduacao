@@ -1,0 +1,1 @@
+# Crie um programa que leia uma matriz 5x5 usando numpy e troque os elementos da 3ª linha pela 3ª coluna e vice-versa. Obs: considere que a 3ª linha e a 3ª coluna da matriz referem-se ao índice 2. A troca deve ser feita após após a leitura de todos os elementos da matriz.

@@ -1,0 +1,1 @@
+# Faça um programa em Python que dado os vértices de um triângulo, calcule as coordenadas baricéntricas de um ponto dado

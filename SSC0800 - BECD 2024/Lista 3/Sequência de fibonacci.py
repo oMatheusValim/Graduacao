@@ -1,17 +1,10 @@
-# Dado um número natural n. Faça um programa para calcular o n-ésimo termo da Sequência Fibonacci.
-# Sendo, F(0) = 0, F(1) = 1, F(N) = F(n-1) + F(n-2) para n > 1
+# Implemente uma função recursiva que retorne o n-ésimo termo da sequência de Fibonacci.
 
-# Entrada:
-# n
+# Entrada
+# 6
 
-# Saída:
-# F(n)
-
-# Sample Input:
-# 5
-
-# Sample Output:
-# 5
+# Saída
+# 8
 
 def fibonacci(n, memo={}):
     if n in memo:
@@ -27,3 +20,4 @@ entrada = int(input().strip())
 fibo = fibonacci(entrada)
 print(fibo)
 
+# FEITO

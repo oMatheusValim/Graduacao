@@ -15,5 +15,3 @@ def inverte_recursivo(s):
 entrada = input().strip()
 resultado = inverte_recursivo(entrada)
 print(resultado)
-
-# FEITO

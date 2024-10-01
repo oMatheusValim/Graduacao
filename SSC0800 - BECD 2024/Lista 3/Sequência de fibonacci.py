@@ -19,5 +19,3 @@ def fibonacci(n, memo={}):
 entrada = int(input().strip())
 fibo = fibonacci(entrada)
 print(fibo)
-
-# FEITO

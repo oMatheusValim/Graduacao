@@ -20,5 +20,3 @@ n1 = int(entrada[0])
 n2 = int(entrada[1])
 resul = list(min_div(n1, n2))
 print(resul[-1])
-
-# FEITO

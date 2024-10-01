@@ -17,5 +17,3 @@ n1 = int(entrada[0])
 n2 = int(entrada[1])
 resul = produto(n1, n2)
 print(resul)
-
-# FEITO

@@ -19,5 +19,3 @@ entrada = input().strip()
 letra_filtradas = filtro(entrada)
 minusculas, maiusculas = contar(letra_filtradas)
 print(f'Maiúsculas: {maiusculas}\nMinúsculas: {minusculas}')
-
-# FEITO

@@ -14,5 +14,3 @@ def fatorial_recursivo(n):
 numero = int(input())
 resultado = fatorial_recursivo(numero)
 print(resultado)
-
-# FEITO

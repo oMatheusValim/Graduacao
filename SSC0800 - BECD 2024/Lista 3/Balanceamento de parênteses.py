@@ -18,5 +18,8 @@ def veri(n):
     return False
 entrada = input().strip()
 print(veri(entrada))
+<<<<<<< HEAD
     
 # FEITO    
+=======
+>>>>>>> 24ae77e711349f7b27af18ea98149085a6f9ecc7

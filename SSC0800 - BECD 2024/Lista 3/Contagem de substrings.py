@@ -18,6 +18,3 @@ string = entrada[0]
 substring = entrada[1]
 contagem = contar_substring(string, substring)
 print(contagem)
-
-
-# FEITO

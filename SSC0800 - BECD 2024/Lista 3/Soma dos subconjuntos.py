@@ -6,8 +6,16 @@
 # Saída
 # True
 
+def veri(possiveis, target):
+    lista2 = [0]
+    for i in possiveis:
+        for j in lista2[::]:
+            if (i+j) == target:
+                return True 
+            else:
+                lista2.append(i+j)
+    return False
 entrada = input().split()
-target = entrada[-1]
-
-
-
+target = int(entrada[-1])
+possiveis = list(map(int, entrada[:-1]))
+print(veri(possiveis, target)) 

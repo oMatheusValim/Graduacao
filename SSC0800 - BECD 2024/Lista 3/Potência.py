@@ -16,5 +16,3 @@ base = int(entrada[0])
 expoente = int(entrada[1])
 resul = potencia(base, expoente)
 print(resul)
-
-# FEITO

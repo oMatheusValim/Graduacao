@@ -22,8 +22,3 @@ def permut(inp, cont = 0):
 
 entrada = list(input().strip())
 permut(entrada)
-<<<<<<< HEAD
-
-# FEITO
-=======
->>>>>>> 24ae77e711349f7b27af18ea98149085a6f9ecc7

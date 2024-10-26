@@ -26,5 +26,3 @@ for i in range(entradas):
 limite = int(input())
 dic_filtrado = filtragem(dicionario, limite)
 print(dic_filtrado)
-    
-# FEITO

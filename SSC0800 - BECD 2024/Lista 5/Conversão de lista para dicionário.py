@@ -19,5 +19,3 @@ for _ in range(entradas):
     valor = input().strip()
     dicionario[chave] = valor
 print(dicionario)
-
-# FEITO

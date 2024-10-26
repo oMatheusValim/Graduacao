@@ -21,8 +21,3 @@ inteiro_k = int(entrada[-1])
 numero_original = entrada[0]
 result = remover_k(numero_original, inteiro_k)
 print(result)
-<<<<<<< HEAD
-
-# FEITO
-=======
->>>>>>> 24ae77e711349f7b27af18ea98149085a6f9ecc7

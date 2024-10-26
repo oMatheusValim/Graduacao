@@ -25,5 +25,3 @@ entrada_altura = float(input())
 result = Retangulo(entrada_largura, entrada_altura)
 print("Área:", float(result.area()))
 print("Perímetro:", float(result.perimetro()))
-
-# FEITO

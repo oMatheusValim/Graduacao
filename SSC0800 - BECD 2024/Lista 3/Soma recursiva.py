@@ -14,5 +14,3 @@ def soma(n):
 entrada = int(input())
 resul = soma(entrada)
 print(resul)
-
-# FEITO

@@ -12,5 +12,3 @@ if entrada == ordem:
     print(True)
 else:
     print(False)
-    
-# FEITO

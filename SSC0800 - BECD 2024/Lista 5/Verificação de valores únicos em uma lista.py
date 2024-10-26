@@ -16,5 +16,3 @@ def veri(n, j = 0):
 entrada = input().split()
 result = veri(entrada)
 print(result)
-
-# FEITO

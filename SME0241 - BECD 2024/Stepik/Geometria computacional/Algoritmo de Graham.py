@@ -61,5 +61,3 @@ for _ in range(10):
     pontos.append([float(entrada[0]), float(entrada[1])])
 
 algoritmo_graham(pontos)
-
-# FEITO

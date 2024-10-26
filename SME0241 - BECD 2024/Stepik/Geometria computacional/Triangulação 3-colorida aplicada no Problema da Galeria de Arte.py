@@ -37,5 +37,3 @@ elif cor3 < cor2 and cor3 < cor1:
 for i, l in enumerate(indices):
     posi = list(l)
     print(" ".join(map(str, posi)))
-    
-# FEITO

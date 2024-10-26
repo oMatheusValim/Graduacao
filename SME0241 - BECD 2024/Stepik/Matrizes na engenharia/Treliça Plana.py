@@ -112,5 +112,3 @@ indice_maximo = np.argmax(tracao)
 indice_minimo = np.argmin(tracao)
 
 print(indice_minimo,indice_maximo)
-
-# FEITO

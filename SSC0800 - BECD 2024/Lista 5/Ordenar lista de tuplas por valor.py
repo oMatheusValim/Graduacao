@@ -5,3 +5,9 @@
 
 # Saída
 # [('Maria', 22), ('João', 25), ('Pedro', 30)]
+
+def ordem(n):
+    return sorted(n, key=lambda x: x[1])
+entrada = eval(input())
+resul = ordem(entrada)
+print(resul)

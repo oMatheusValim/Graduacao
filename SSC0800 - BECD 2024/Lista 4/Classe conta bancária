@@ -1,0 +1,54 @@
+# Implemente uma classe chamada ContaBancaria que deverá possuir os seguintes atributos:
+
+# titular: O nome do titular da conta bancária.
+# saldo: O saldo inicial da conta.
+
+# A classe deve conter os seguintes métodos:
+# depositar(valor): Método para adicionar o valor informado ao saldo da conta.
+# sacar(valor): Método para subtrair o valor informado do saldo da conta, garantindo que o saldo nunca fique negativo. Se o valor do saque for maior que o saldo disponível, o saque não será realizado e o saldo permanecerá o mesmo.
+
+# O programa deverá receber como entrada:
+# O nome do titular da conta.
+# O saldo inicial da conta.
+# O valor de um depósito.
+# O valor de um saque.
+
+# Após processar as operações, o programa deverá exibir o saldo final da conta.
+
+# Formato de Entrada:
+# Nome do titular.
+# Saldo inicial da conta.
+# Valor do depósito.
+# Valor do saque.
+# Formato de Saída: Exiba o saldo final da conta com uma casa decimal.
+
+# Exemplo de Entrada
+# João
+# 100
+# 500
+# 50
+
+# Exemplo de Saída
+# Saldo final: 550.0
+
+class saldo_conta(object):
+    def __init__(self, saldo_inicial, deposito, saque):
+        self.saldo_in = saldo_inicial
+        self.deposito = deposito
+        self.saque = saque
+    
+    def add(self):
+        return self.saldo_in + self.deposito
+    
+    def retirar(self):
+        if self.saldo_in + self.deposito - self.saque < 0:
+            return self.saldo_in + self.deposito
+        else:
+            return self.saldo_in + self.deposito - self.saque
+        
+titular = input()
+saldo_inicial = float(input())
+deposito = float(input())
+saque = float(input())
+saldo_final = saldo_conta(saldo_inicial, deposito, saque)
+print(f'Saldo final: {saldo_final.retirar()}')

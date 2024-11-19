@@ -37,5 +37,3 @@ if aresta < 0:
 else: 
     result = cubo(aresta)
     print(f'Volume: {result.calcular_volume():.1f}\nÁrea da Superfície: {result.calcular_areasuperficie():.1f}')
-    
-# FEITO

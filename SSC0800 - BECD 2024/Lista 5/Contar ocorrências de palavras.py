@@ -6,5 +6,13 @@
 # Saída
 # {'J': 1, 'a': 2, 'v': 1}
 
+def contar_caracteres(lista_palavras):
+    dicionario = {}
+    for palavra in lista_palavras:
+        for char in palavra:  
+            dicionario[char] = dicionario.get(char, 0) + 1
+    return dicionario
+
 entrada = input().strip()
-dicionario = {}
+result = contar_caracteres(entrada)
+print(result)

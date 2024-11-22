@@ -1,0 +1,45 @@
+# Resolva a Equação do Calor no caso unidimensional dT/dt = alpha d²T/dx², x pertencente [0, L], t>= 0 em uma barra de comprimento L usando MDF (Método de Diferenças Finitas).
+# Implícito com as condições de contorno e iniciais:
+# T (0,t) = T (L,t) = 0 e φ0 (x) = sen(pi * x / L), sendo φ phi
+#
+# Parâmetros:
+# Comprimento da barra L = 1
+# Número de intervalos na discretização espacial N = 64 (ou seja, N+1 nós igualmente espaçados em x)
+# Passo de tempo dt = 0.001
+# Número de passos de tempo M = 100
+
+# Solução exata:
+# T (x,t) = sen (pi * x / L) exp (-alpha * pi² * t / L²)
+# 
+# ENTRADA:
+# Difusividade térmica do meio: alpha
+
+# SAÍDA:
+# Norma euclediana da diferença entre a solução aproximada e a solução exata || Tap - Tex ||2 calculada em todos os pontos da discretização após M passos de tempo (ou seja, em t = M delta t)
+# Utilize a saída formatada com 6 dígitos:
+# print ('%.6f' % np.linalg.norm(Tap -  Tex))
+
+import numpy as np
+
+comprimento_barra = 1
+intervalos = 64
+passo_tempo = 0.001
+num_passos = 100
+dx = comprimento_barra/intervalos
+alpha = float(input())
+r = alpha*passo_tempo/(dx**2) # vai dar 0.61 com o input do enunciado
+
+R1 = (r*2 + 1) * np.ones(intervalos-1) # np.ones() constroi uma matriz com uns
+R2 = -r * np.ones(intervalos - 2)
+A = np.diag(R1) + np.diag(R2, 1) + np.diag(R2,-1) # np.diag() constroi uma matriz 2D diagonal
+
+x = np.linspace (dx, comprimento_barra - dx, intervalos - 1) # cria um array com números uniformemente espaçados ao intervalo
+Tap = np.sin (np.pi * x / comprimento_barra) # phi zero de x
+
+for m in range(num_passos):
+    Tap = np.linalg.solve(A,Tap) # np.linalg.solve() resolve uma equação de matriz linear ou sistema de equações escalares lineares
+
+t = num_passos * passo_tempo   
+Tex = np.sin ( (np.pi * x) / comprimento_barra) * np.exp (-(alpha * t * (np.pi**2)) / (comprimento_barra**2))
+     
+print ('%.6f' % np.linalg.norm(Tap -  Tex))

@@ -57,57 +57,75 @@
 # Saída
 # Joao 10000.0 RH
 
-class Funcionario(object):
+class Funcionarios:
     def __init__(self, nome, salario, departamento):
         self._nome = nome
         self._salario = salario
         self._departamento = departamento
-        
+    
+    def get_nome(self): 
+        return self._nome
+    
+    def get_salario(self):
+        return self._salario
+    
+    def get_departamento(self):
+        return self._departamento
+    
     def set_departamento(self, novo_departamento):
         self._departamento = novo_departamento
-        
-    def setsalario(self, horas_trabalhadas):
+        return self._departamento
+
+    def set_salario(self, horas_trabalhadas):
         if horas_trabalhadas > 50:
             horas_extras = horas_trabalhadas - 50
-            valor_horas_extras = horas_extras * self._salario/50
-            self.salario += valor_horas_extras 
-            return self.salario
-        
-funcionarios = []
-def add_funcionario(nome, salario, departamento):
-    novo_funcionario = funcionarios(nome, salario, departamento)
-    funcionarios.append(novo_funcionario)
+            valor_horas_extras = horas_extras * (self._salario / 50)
+            self._salario += valor_horas_extras
+        return self._salario
+
+    def __repr__(self):
+        return f'{self._nome} {self._salario:.1f} {self._departamento}'
     
-def menu():
-    while True:       
-        num_funcionarios = int(input())
-        while len(funcionarios) < num_funcionarios:
-            entrada = input().split()
-            nome = entrada[0]
-            salario = int(entrada[1])
-            departamento = entrada[2]
-            add_funcionario(nome, salario, departamento)
 
-        ato = int(input())
-        
-        if ato == 1:
-            entrada = input().strip()
-            horas_trabalhadas = int(entrada [1])
-            for i in funcionarios:
-                funcionarios.setsalario(horas_trabalhadas)
-            
-        elif ato == 2:
-            result = maior_salario()
-            
-        elif ato == 3:
-            entrada = input().strip()
-            novo_departamento = entrada[1]
-            for entrada[0] in funcionarios:
-                funcionarios.set_departamento(novo_departamento)
-            
-        elif ato == 4:
-            result = media_salario()       
+def add_funcionarios(nome, salario, departamento):
+    novo_funcionario = Funcionarios(nome, salario, departamento)
+    funcionarios.append(novo_funcionario)
 
-        else:
-            break
-menu()
+def maior_salario():
+    return max(funcionarios, key=lambda f: f.get_salario())
+    
+def media_salario():
+    return sum(f.get_salario() for f in funcionarios) / len(funcionarios)
+
+funcionarios = []
+num_funcionarios = int(input())
+while len(funcionarios) < num_funcionarios:
+    entrada = input().split()
+    nome, salario, departamento = entrada[0], float(entrada[1]), entrada[2]
+    add_funcionarios(nome, salario, departamento)
+
+opcao = int(input())
+
+if opcao == 1:
+    infos = input().split()
+    nome1, horas_trabalhadas = infos[0], int(infos[1])
+    for f in funcionarios:
+        if f.get_nome() == nome1:
+            f.set_salario(horas_trabalhadas)
+            print(f)
+            
+elif opcao == 2:
+    result = maior_salario()
+    print(result)
+    
+elif opcao == 3:
+    infos = input().split()
+    nome3, novo_departamento = infos[0], infos[1]
+    for f in funcionarios:
+        if f.get_nome() == nome3:
+            f.set_departamento(novo_departamento)
+            print(f)
+            
+elif opcao == 4:
+    result = media_salario()
+    print(f'{result:.2f}')

@@ -7,17 +7,80 @@
 # - [6] Exibe contas encerradas: exibe o numero da mesa e o total pago de cada conta encerrada
 # - [9] Sai
 
-# Classe
-# class Restaurante:
-#     def __init__(self, mesa):
-#         print("Criando conta para a mesa:", mesa)
-#         self.mesa = mesa
-#         self.itens = []
-#         self.valores = []
+class Restaurante():
+    def __init__(self, num_mesa):
+        self._num_mesa = num_mesa
+        self._itens = []
+        self._valores = []
+
+    def set_addItem(self, item, valor):
+        self._itens.append(item)
+        self._valores.append(valor)
         
-#     def getMesa(self):
-#         return (self.mesa)
+    def get_itens(self):
+        return self._itens
+        
+    def get_valores(self):   
+        return self._valores
+        
+    def get_mesa(self):
+        return self._num_mesa 
+
+mesas = []
+contas_encerradas = []
+
+def add_mesa(num_mesa):
+    nova_mesa = Restaurante(num_mesa)
+    mesas.append(nova_mesa) 
+
+def menu():
+    global mesas, contas_encerradas
     
-#     def addItem(self, item, valor):
-#     def getItens(self):
-#     def getValores(self)
+    while True:
+        opcao = int(input())
+        
+        if opcao == 1:
+            num_mesa = int(input())
+            add_mesa(num_mesa)
+            
+        elif opcao == 2:
+            num_mesa = int(input())
+            item = input().strip()
+            valor = float(input()) 
+            for m in mesas:
+                if m.get_mesa() == num_mesa:
+                    m.set_addItem(item, valor)
+                    break
+                
+        elif opcao == 3:
+            num_mesa = int(input())
+            for m in mesas:
+                if m.get_mesa() == num_mesa:
+                    print(f'{m.get_itens()}')
+                    print(f'{m.get_valores()}')
+                    break
+                
+        elif opcao == 4:
+            num_mesa = int(input())
+            for m in mesas:
+                if m.get_mesa() == num_mesa:
+                    print(f'{sum(m.get_valores()):.1f}')
+                    break
+                
+        elif opcao == 5:
+            num_mesa = int(input())
+            for m in mesas:
+                if m.get_mesa() == num_mesa:
+                    total = sum(m.get_valores())
+                    contas_encerradas.append((num_mesa, total))
+                    mesas.remove(m)
+                    break
+            
+        elif opcao == 6:
+            for c in contas_encerradas:
+                print(f'[{c[0]}]')
+                print(f'[{c[1]}]')
+                
+        elif opcao == 9:
+            break
+menu()

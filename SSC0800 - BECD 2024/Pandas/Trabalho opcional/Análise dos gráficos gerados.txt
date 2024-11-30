@@ -1,0 +1,14 @@
+1. Visão Geral do Conjunto de Dados da Steel Industry Data:
+
+Após a geração do relatório interativo com a biblioteca Sweetviz, foi possível obter uma visão abrangente das características e do comportamento dos dados. O relatório apresenta estatísticas descritivas detalhadas e visualizações, que ajudam a identificar padrões e possíveis anomalias.
+
+2. Distribuição das Variáveis:
+Os gráficos de distribuição fornecidos pelo Sweetviz mostram claramente o comportamento de cada variável. Por exemplo:
+
+A variável Usage_kWh apresenta uma concentração em torno de valores específicos, mas com ampla variação.
+As variáveis NSM e ID têm distribuições bem uniformes, enquanto Leading_Current_Reactive_Power_kVarh apresenta uma concentração de cerca de 70% dos valores em um único ponto, indicando baixa variabilidade.
+3. Correlação entre Variáveis:
+Os gráficos de correlação identificam relações importantes entre os atributos. Por exemplo, observou-se uma forte relação entre Lagging_Current_Reactive_Power_kVarh e Leading_Current_Reactive_Power_kVarh, indicando uma possível dependência. Essas informações são cruciais para modelagem e análises preditivas.
+
+4. Conclusão:
+O relatório do Sweetviz oferece uma análise detalhada da estrutura dos dados. Observou-se que a maioria das variáveis possui distribuições assimétricas, o que pode trazer desafios em análises ou modelagens estatísticas. Essas informações fornecem uma base sólida para tomadas de decisão e ajustes no pré-processamento.

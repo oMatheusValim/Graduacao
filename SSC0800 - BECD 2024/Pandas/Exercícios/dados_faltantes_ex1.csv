@@ -1,0 +1,201 @@
+Nome,Idade,Gênero,Cidade,Renda Anual
+Lucas,23.0,F,Brasília,99047.0
+Maria,25.0,F,Curitiba,93637.0
+Carla,56.0,M,Belo Horizonte,86960.0
+Lucas,,F,Fortaleza,
+Carlos,25.0,F,Belo Horizonte,
+Paulo,48.0,M,Curitiba,90292.0
+Pedro,56.0,M,São Paulo,97838.0
+Maria,,F,Rio de Janeiro,91224.0
+Maria,,M,Salvador,
+Maria,44.0,M,Rio de Janeiro,54167.0
+Carlos,,M,São Paulo,
+Ana,,M,Belo Horizonte,68776.0
+Renata,30.0,F,Brasília,
+Marcos,,M,Curitiba,
+Fernanda,,F,Belo Horizonte,
+Renata,31.0,F,Fortaleza,51464.0
+Carla,,M,Curitiba,88092.0
+Marcos,,F,Salvador,
+Maria,28.0,F,Belo Horizonte,61481.0
+Ana,,M,Rio de Janeiro,49399.0
+Carla,54.0,F,São Paulo,56039.0
+Marcos,52.0,F,Salvador,65672.0
+Joana,,F,Brasília,62949.0
+Joana,,M,Brasília,84729.0
+Carlos,45.0,M,Belo Horizonte,88631.0
+Fernanda,,F,Fortaleza,56126.0
+Maria,,F,Curitiba,
+Pedro,56.0,F,Porto Alegre,
+Marcos,29.0,M,Salvador,
+Marcos,,F,Brasília,
+Lucas,,F,Salvador,33971.0
+Lucas,59.0,M,Curitiba,
+Ana,33.0,M,Salvador,74751.0
+Pedro,,F,Rio de Janeiro,
+Maria,28.0,F,Belo Horizonte,
+Maria,,M,Belo Horizonte,69774.0
+Ana,35.0,M,Curitiba,54128.0
+Marcos,,F,Belo Horizonte,
+Renata,,M,Belo Horizonte,
+Marcos,45.0,F,São Paulo,32382.0
+Ana,,F,Brasília,91673.0
+Ana,,F,Rio de Janeiro,
+Paulo,20.0,M,Salvador,
+Carla,,M,São Paulo,53581.0
+Carlos,,M,Brasília,89685.0
+Pedro,,M,Belo Horizonte,31968.0
+Carla,,F,Porto Alegre,
+Marcos,,F,São Paulo,47374.0
+Fernanda,,M,Belo Horizonte,
+João,,F,Salvador,
+Ana,,F,Rio de Janeiro,
+Carla,,F,Curitiba,
+Marcos,41.0,M,São Paulo,57938.0
+Ana,51.0,M,Belo Horizonte,88644.0
+Renata,,M,Rio de Janeiro,
+Pedro,,F,Brasília,87762.0
+Joana,,M,Fortaleza,
+Carlos,,M,Belo Horizonte,
+Pedro,,F,Fortaleza,96037.0
+Pedro,,M,Salvador,
+Carlos,,F,Fortaleza,88573.0
+Ana,,M,Fortaleza,33913.0
+Lucas,46.0,M,Salvador,
+Lucas,53.0,F,Salvador,
+Lucas,19.0,F,Curitiba,84690.0
+Paulo,,F,Belo Horizonte,
+Marcos,,M,Brasília,
+Carlos,43.0,F,Belo Horizonte,
+João,35.0,F,São Paulo,
+Carlos,23.0,F,Salvador,50120.0
+Renata,44.0,M,Belo Horizonte,55271.0
+Lucas,,M,Curitiba,
+Pedro,45.0,M,Belo Horizonte,74414.0
+Carlos,18.0,F,Fortaleza,
+Renata,,F,Curitiba,66411.0
+Joana,22.0,M,Brasília,
+Maria,,M,Porto Alegre,
+Maria,,M,Belo Horizonte,
+João,36.0,F,Porto Alegre,
+Carla,25.0,M,São Paulo,90042.0
+Maria,26.0,M,Brasília,
+Pedro,,F,Rio de Janeiro,
+Renata,43.0,F,Salvador,62158.0
+Paulo,44.0,F,Belo Horizonte,
+Ana,,M,Salvador,
+Paulo,56.0,M,Belo Horizonte,88452.0
+Renata,,F,Brasília,
+Paulo,,F,Salvador,
+Pedro,,F,Rio de Janeiro,98357.0
+Marcos,,F,Porto Alegre,46945.0
+Maria,,M,Curitiba,32750.0
+Maria,33.0,M,Curitiba,
+Carlos,39.0,F,Curitiba,
+Carla,,M,Rio de Janeiro,
+Fernanda,18.0,M,Fortaleza,
+Marcos,19.0,M,Porto Alegre,
+João,,M,Belo Horizonte,47981.0
+Carlos,,F,Rio de Janeiro,
+Paulo,,M,Rio de Janeiro,
+Maria,,F,Porto Alegre,
+Renata,,F,Porto Alegre,
+Pedro,45.0,M,Fortaleza,
+Marcos,36.0,M,Belo Horizonte,57258.0
+Fernanda,38.0,M,São Paulo,
+Marcos,40.0,M,Brasília,
+Carlos,,F,Belo Horizonte,87925.0
+Maria,,M,Belo Horizonte,69015.0
+Joana,29.0,F,Porto Alegre,38004.0
+Maria,,F,Brasília,50547.0
+Carla,,M,Rio de Janeiro,66540.0
+Carla,,M,Brasília,
+Fernanda,,M,Curitiba,
+Joana,28.0,M,Curitiba,87843.0
+Pedro,59.0,M,Salvador,48276.0
+Carlos,45.0,F,Brasília,78120.0
+Joana,52.0,F,Fortaleza,
+Carla,,F,Fortaleza,
+Ana,20.0,M,Brasília,
+Carla,33.0,M,Brasília,58134.0
+Lucas,,F,Rio de Janeiro,87694.0
+Ana,,M,Porto Alegre,50788.0
+Joana,56.0,F,Rio de Janeiro,88480.0
+Fernanda,34.0,M,São Paulo,66472.0
+Ana,,M,Belo Horizonte,45208.0
+Paulo,,F,Rio de Janeiro,89010.0
+João,47.0,F,São Paulo,82195.0
+Lucas,30.0,F,Fortaleza,
+Maria,52.0,F,Curitiba,57270.0
+Carlos,,F,Porto Alegre,
+Lucas,,M,São Paulo,95801.0
+Maria,48.0,M,Fortaleza,
+Lucas,,F,Belo Horizonte,38720.0
+Paulo,31.0,M,Curitiba,
+João,,F,Fortaleza,78338.0
+Fernanda,55.0,M,Fortaleza,36620.0
+Lucas,,M,Rio de Janeiro,
+Joana,52.0,F,Rio de Janeiro,
+Lucas,41.0,F,Brasília,75400.0
+Joana,,F,Brasília,
+Carlos,,F,Fortaleza,39590.0
+Maria,36.0,M,Rio de Janeiro,58133.0
+Pedro,,F,Belo Horizonte,
+João,39.0,M,São Paulo,
+Paulo,24.0,F,Brasília,
+Renata,18.0,M,São Paulo,76160.0
+Fernanda,35.0,M,Curitiba,
+Pedro,31.0,F,Brasília,87349.0
+João,40.0,M,São Paulo,
+João,28.0,M,Salvador,70340.0
+Fernanda,49.0,F,Salvador,51618.0
+Paulo,36.0,F,Salvador,92930.0
+Lucas,,M,Salvador,
+Fernanda,43.0,F,São Paulo,54508.0
+Lucas,21.0,M,São Paulo,
+Renata,58.0,M,Porto Alegre,
+Joana,35.0,M,Fortaleza,45174.0
+Maria,24.0,F,Brasília,83363.0
+Renata,29.0,M,Fortaleza,86497.0
+Fernanda,21.0,F,Porto Alegre,
+Paulo,,F,Curitiba,36724.0
+Lucas,45.0,F,Porto Alegre,82044.0
+Carlos,,M,Belo Horizonte,82221.0
+Fernanda,,M,Belo Horizonte,78888.0
+Marcos,,M,Brasília,63296.0
+Renata,,F,Salvador,
+Paulo,,M,Rio de Janeiro,
+Joana,38.0,F,Brasília,
+Joana,34.0,F,Curitiba,
+Ana,,F,Curitiba,57947.0
+Marcos,28.0,F,Brasília,
+Renata,27.0,M,Curitiba,
+Carla,55.0,M,São Paulo,79885.0
+Pedro,49.0,M,Salvador,
+Joana,,M,Salvador,
+Ana,,F,Brasília,
+Lucas,,M,Salvador,
+Joana,19.0,F,Rio de Janeiro,85446.0
+Lucas,37.0,M,Salvador,
+Fernanda,,F,Fortaleza,
+Renata,,F,Brasília,93017.0
+João,43.0,M,Brasília,65566.0
+Maria,,F,Curitiba,
+Marcos,49.0,M,São Paulo,91880.0
+Maria,31.0,M,Salvador,41192.0
+Paulo,,M,Belo Horizonte,
+Marcos,46.0,M,Fortaleza,60619.0
+Carlos,,F,Salvador,77136.0
+Renata,,F,Porto Alegre,
+Lucas,,M,Brasília,
+Ana,,M,Salvador,
+Carla,40.0,F,Curitiba,
+Joana,,F,Curitiba,63013.0
+Paulo,47.0,M,Belo Horizonte,68585.0
+Pedro,,F,Fortaleza,
+Paulo,53.0,F,Rio de Janeiro,
+Ana,,M,Curitiba,
+Lucas,,M,Rio de Janeiro,
+Ana,,M,Rio de Janeiro,51959.0
+Marcos,55.0,M,Brasília,68428.0
+Paulo,,F,Rio de Janeiro,94581.0

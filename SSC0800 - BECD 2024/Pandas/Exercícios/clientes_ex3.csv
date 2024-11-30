@@ -1,0 +1,221 @@
+ID,Nome,E-mail,Cidade,Valor da Compra,Data da Compra
+1,Rafael Campos,carlos.souza@exemplo.com,São Paulo,953.15,2024-08-01
+2,Ricardo Lima,fernanda.costa@exemplo.com,Curitiba,770.93,2024-10-22
+3,Ana Silva,paula.mendes@exemplo.com,Porto Alegre,832.06,2024-01-12
+4,Rafael Campos,beatriz.almeida@exemplo.com,São Paulo,186.02,2024-09-06
+5,Ricardo Lima,joão.santos@exemplo.com,Belo Horizonte,847.02,2024-02-27
+6,Beatriz Almeida,rafael.campos@exemplo.com,Curitiba,736.39,2024-06-03
+7,Carlos Souza,rafael.campos@exemplo.com,Rio de Janeiro,540.37,2024-11-14
+8,Ana Silva,joão.santos@exemplo.com,São Paulo,819.5,2024-02-22
+9,João Santos,ricardo.lima@exemplo.com,Belo Horizonte,283.34,2024-04-09
+10,Ricardo Lima,fernanda.costa@exemplo.com,São Paulo,161.91,2024-08-14
+11,Beatriz Almeida,joão.santos@exemplo.com,Porto Alegre,580.92,2023-12-27
+12,José Pereira,beatriz.almeida@exemplo.com,Rio de Janeiro,940.24,2024-01-26
+13,João Santos,ricardo.lima@exemplo.com,São Paulo,697.4,2024-06-28
+14,João Santos,beatriz.almeida@exemplo.com,São Paulo,595.69,2023-11-30
+15,Carlos Souza,rafael.campos@exemplo.com,Belo Horizonte,323.42,2024-02-21
+16,Carlos Souza,beatriz.almeida@exemplo.com,São Paulo,893.79,2024-10-27
+17,João Santos,carlos.souza@exemplo.com,Porto Alegre,381.51,2023-11-26
+18,João Santos,ricardo.lima@exemplo.com,Curitiba,528.45,2024-08-10
+19,Ana Silva,josé.pereira@exemplo.com,Porto Alegre,970.64,2024-09-27
+20,João Santos,rafael.campos@exemplo.com,Rio de Janeiro,381.04,2024-05-08
+21,Fernanda Costa,rafael.campos@exemplo.com,Porto Alegre,623.61,2023-12-29
+22,Mariana Oliveira,paula.mendes@exemplo.com,São Paulo,974.23,2024-09-05
+23,Fernanda Costa,josé.pereira@exemplo.com,São Paulo,339.39,2024-11-17
+24,Carlos Souza,beatriz.almeida@exemplo.com,Belo Horizonte,812.72,2024-03-04
+25,Ricardo Lima,joão.santos@exemplo.com,Rio de Janeiro,332.5,2024-07-24
+26,João Santos,mariana.oliveira@exemplo.com,Porto Alegre,755.97,2024-10-09
+27,Ricardo Lima,fernanda.costa@exemplo.com,Porto Alegre,911.32,2024-03-11
+28,José Pereira,rafael.campos@exemplo.com,Porto Alegre,380.23,2024-05-03
+29,Beatriz Almeida,joão.santos@exemplo.com,Curitiba,169.44,2024-04-21
+30,Ana Silva,joão.santos@exemplo.com,São Paulo,334.4,2024-10-18
+31,Ricardo Lima,joão.santos@exemplo.com,Curitiba,279.3,2024-07-15
+32,Fernanda Costa,ricardo.lima@exemplo.com,Belo Horizonte,848.83,2024-03-10
+33,Fernanda Costa,rafael.campos@exemplo.com,Rio de Janeiro,905.58,2024-11-01
+34,José Pereira,paula.mendes@exemplo.com,Porto Alegre,987.13,2024-07-10
+35,Rafael Campos,fernanda.costa@exemplo.com,Belo Horizonte,169.04,2024-05-06
+36,João Santos,paula.mendes@exemplo.com,Belo Horizonte,117.88,2024-09-03
+37,Fernanda Costa,ana.silva@exemplo.com,Curitiba,607.81,2024-03-25
+38,José Pereira,josé.pereira@exemplo.com,Belo Horizonte,980.12,2024-01-03
+39,Ricardo Lima,carlos.souza@exemplo.com,Porto Alegre,760.41,2023-11-28
+40,Mariana Oliveira,rafael.campos@exemplo.com,Curitiba,874.52,2024-10-24
+41,Paula Mendes,fernanda.costa@exemplo.com,Curitiba,332.36,2024-10-07
+42,João Santos,beatriz.almeida@exemplo.com,Curitiba,988.52,2024-06-10
+43,José Pereira,fernanda.costa@exemplo.com,Belo Horizonte,241.76,2024-07-23
+44,Mariana Oliveira,ricardo.lima@exemplo.com,São Paulo,330.9,2024-09-07
+45,Ricardo Lima,ricardo.lima@exemplo.com,Porto Alegre,608.33,2024-04-17
+46,João Santos,mariana.oliveira@exemplo.com,Porto Alegre,691.87,2023-11-24
+47,Ricardo Lima,joão.santos@exemplo.com,Curitiba,360.79,2024-03-06
+48,Beatriz Almeida,beatriz.almeida@exemplo.com,Belo Horizonte,918.21,2024-01-27
+49,Ricardo Lima,fernanda.costa@exemplo.com,Porto Alegre,421.34,2024-05-08
+50,João Santos,fernanda.costa@exemplo.com,Belo Horizonte,717.37,2024-06-05
+51,Ricardo Lima,carlos.souza@exemplo.com,Porto Alegre,306.14,2024-10-21
+52,Ricardo Lima,carlos.souza@exemplo.com,Belo Horizonte,215.89,2023-11-24
+53,Paula Mendes,ricardo.lima@exemplo.com,Porto Alegre,891.64,2024-04-01
+54,José Pereira,carlos.souza@exemplo.com,Belo Horizonte,270.52,2024-04-06
+55,João Santos,josé.pereira@exemplo.com,Rio de Janeiro,986.4,2024-06-23
+56,Carlos Souza,josé.pereira@exemplo.com,Belo Horizonte,647.28,2024-05-01
+57,Ricardo Lima,joão.santos@exemplo.com,Porto Alegre,706.57,2024-05-08
+58,João Santos,carlos.souza@exemplo.com,Rio de Janeiro,131.21,2024-09-06
+59,Ana Silva,joão.santos@exemplo.com,Belo Horizonte,714.86,2024-01-15
+60,Ricardo Lima,rafael.campos@exemplo.com,Belo Horizonte,240.93,2024-06-04
+61,Ricardo Lima,paula.mendes@exemplo.com,Belo Horizonte,765.16,2024-08-24
+62,José Pereira,ricardo.lima@exemplo.com,Belo Horizonte,647.84,2024-09-29
+63,Paula Mendes,fernanda.costa@exemplo.com,Porto Alegre,767.5,2023-12-13
+64,Paula Mendes,ricardo.lima@exemplo.com,Rio de Janeiro,108.75,2024-04-06
+65,Paula Mendes,ana.silva@exemplo.com,Curitiba,725.0,2024-10-09
+66,Paula Mendes,ricardo.lima@exemplo.com,Curitiba,569.63,2024-01-01
+67,Ana Silva,ricardo.lima@exemplo.com,Belo Horizonte,988.75,2024-10-23
+68,Mariana Oliveira,ricardo.lima@exemplo.com,Belo Horizonte,712.1,2024-06-21
+69,Ana Silva,fernanda.costa@exemplo.com,Belo Horizonte,215.4,2024-02-07
+70,Paula Mendes,ana.silva@exemplo.com,Porto Alegre,737.16,2024-07-20
+71,José Pereira,ricardo.lima@exemplo.com,São Paulo,562.15,2024-10-25
+72,Paula Mendes,paula.mendes@exemplo.com,Curitiba,410.24,2024-03-24
+73,Paula Mendes,fernanda.costa@exemplo.com,Curitiba,926.93,2023-11-30
+74,Beatriz Almeida,josé.pereira@exemplo.com,Rio de Janeiro,131.92,2024-10-01
+75,Mariana Oliveira,rafael.campos@exemplo.com,Rio de Janeiro,944.77,2023-11-21
+76,Fernanda Costa,josé.pereira@exemplo.com,São Paulo,536.75,2024-08-23
+77,Ricardo Lima,josé.pereira@exemplo.com,Belo Horizonte,479.4,2023-12-01
+78,Beatriz Almeida,paula.mendes@exemplo.com,Rio de Janeiro,504.68,2024-09-26
+79,Mariana Oliveira,rafael.campos@exemplo.com,Porto Alegre,316.97,2024-06-11
+80,João Santos,joão.santos@exemplo.com,Rio de Janeiro,955.01,2024-06-24
+81,Ana Silva,fernanda.costa@exemplo.com,São Paulo,698.01,2024-08-06
+82,Carlos Souza,fernanda.costa@exemplo.com,Curitiba,743.57,2024-10-07
+83,João Santos,joão.santos@exemplo.com,Belo Horizonte,319.8,2024-11-13
+84,Fernanda Costa,joão.santos@exemplo.com,São Paulo,934.66,2024-10-23
+85,José Pereira,joão.santos@exemplo.com,Belo Horizonte,786.26,2024-06-08
+86,Mariana Oliveira,joão.santos@exemplo.com,Porto Alegre,427.62,2024-03-04
+87,Paula Mendes,ana.silva@exemplo.com,Curitiba,997.72,2024-04-21
+88,Ana Silva,ana.silva@exemplo.com,Curitiba,187.39,2024-05-21
+89,Fernanda Costa,paula.mendes@exemplo.com,Belo Horizonte,142.08,2023-12-02
+90,Ana Silva,paula.mendes@exemplo.com,Porto Alegre,988.55,2024-07-11
+91,João Santos,carlos.souza@exemplo.com,Curitiba,502.73,2024-06-16
+92,Ricardo Lima,ana.silva@exemplo.com,Belo Horizonte,792.36,2024-10-09
+93,Rafael Campos,beatriz.almeida@exemplo.com,Curitiba,114.78,2024-04-29
+94,Mariana Oliveira,fernanda.costa@exemplo.com,São Paulo,672.96,2024-11-09
+95,Rafael Campos,paula.mendes@exemplo.com,São Paulo,258.0,2024-10-21
+96,Rafael Campos,paula.mendes@exemplo.com,Rio de Janeiro,854.71,2024-05-24
+97,Carlos Souza,paula.mendes@exemplo.com,Belo Horizonte,923.8,2024-08-30
+98,Fernanda Costa,carlos.souza@exemplo.com,Rio de Janeiro,183.34,2024-02-07
+99,João Santos,mariana.oliveira@exemplo.com,Curitiba,313.15,2023-12-09
+100,Carlos Souza,ana.silva@exemplo.com,Porto Alegre,413.27,2024-01-11
+101,Carlos Souza,josé.pereira@exemplo.com,Belo Horizonte,450.02,2024-04-29
+102,Fernanda Costa,ricardo.lima@exemplo.com,São Paulo,156.85,2024-05-30
+103,João Santos,mariana.oliveira@exemplo.com,Rio de Janeiro,647.63,2024-01-18
+104,Carlos Souza,josé.pereira@exemplo.com,Porto Alegre,824.02,2023-12-10
+105,Fernanda Costa,paula.mendes@exemplo.com,Belo Horizonte,582.06,2024-03-18
+106,Ana Silva,rafael.campos@exemplo.com,Rio de Janeiro,935.15,2024-08-13
+107,Ricardo Lima,fernanda.costa@exemplo.com,Curitiba,100.94,2023-12-28
+108,Carlos Souza,mariana.oliveira@exemplo.com,São Paulo,346.1,2024-09-16
+109,Rafael Campos,carlos.souza@exemplo.com,Belo Horizonte,906.45,2024-04-26
+110,Mariana Oliveira,josé.pereira@exemplo.com,Rio de Janeiro,517.05,2024-06-23
+111,Fernanda Costa,carlos.souza@exemplo.com,Belo Horizonte,754.22,2024-04-14
+112,João Santos,beatriz.almeida@exemplo.com,Porto Alegre,577.2,2024-04-13
+113,João Santos,joão.santos@exemplo.com,São Paulo,910.07,2024-11-15
+114,Ana Silva,ana.silva@exemplo.com,Porto Alegre,257.29,2024-01-06
+115,Ricardo Lima,ricardo.lima@exemplo.com,Rio de Janeiro,208.77,2024-03-22
+116,Paula Mendes,joão.santos@exemplo.com,Porto Alegre,993.69,2023-12-16
+117,José Pereira,beatriz.almeida@exemplo.com,Porto Alegre,677.09,2024-05-07
+118,Carlos Souza,paula.mendes@exemplo.com,São Paulo,967.57,2024-02-23
+119,Beatriz Almeida,ricardo.lima@exemplo.com,Belo Horizonte,564.5,2024-06-06
+120,Paula Mendes,josé.pereira@exemplo.com,Porto Alegre,728.75,2024-08-08
+121,Ricardo Lima,mariana.oliveira@exemplo.com,Porto Alegre,401.69,2024-10-31
+122,Paula Mendes,fernanda.costa@exemplo.com,Rio de Janeiro,802.55,2024-04-07
+123,Rafael Campos,mariana.oliveira@exemplo.com,São Paulo,582.58,2024-07-24
+124,José Pereira,ana.silva@exemplo.com,Belo Horizonte,956.28,2023-12-31
+125,Beatriz Almeida,paula.mendes@exemplo.com,Rio de Janeiro,696.77,2024-08-02
+126,Carlos Souza,carlos.souza@exemplo.com,São Paulo,521.29,2023-12-30
+127,Ana Silva,fernanda.costa@exemplo.com,Rio de Janeiro,877.85,2024-02-26
+128,Carlos Souza,josé.pereira@exemplo.com,Curitiba,536.73,2024-02-18
+129,Beatriz Almeida,joão.santos@exemplo.com,Curitiba,497.54,2024-01-13
+130,Rafael Campos,carlos.souza@exemplo.com,Belo Horizonte,257.55,2024-04-02
+131,Beatriz Almeida,ricardo.lima@exemplo.com,Belo Horizonte,261.37,2023-12-29
+132,Carlos Souza,fernanda.costa@exemplo.com,Belo Horizonte,648.76,2024-07-25
+133,Ana Silva,mariana.oliveira@exemplo.com,Belo Horizonte,807.9,2024-07-23
+134,Paula Mendes,ana.silva@exemplo.com,Rio de Janeiro,184.36,2023-12-16
+135,Carlos Souza,fernanda.costa@exemplo.com,Rio de Janeiro,188.21,2023-12-13
+136,Mariana Oliveira,paula.mendes@exemplo.com,Rio de Janeiro,795.66,2024-02-14
+137,José Pereira,carlos.souza@exemplo.com,Rio de Janeiro,163.75,2024-05-27
+138,Paula Mendes,joão.santos@exemplo.com,Rio de Janeiro,945.93,2024-10-19
+139,Ricardo Lima,ana.silva@exemplo.com,Curitiba,867.18,2024-03-23
+140,Rafael Campos,josé.pereira@exemplo.com,Rio de Janeiro,691.39,2024-11-17
+141,Fernanda Costa,paula.mendes@exemplo.com,Curitiba,867.85,2024-11-06
+142,Mariana Oliveira,joão.santos@exemplo.com,Rio de Janeiro,924.89,2024-01-07
+143,João Santos,ricardo.lima@exemplo.com,Porto Alegre,102.12,2024-02-14
+144,João Santos,beatriz.almeida@exemplo.com,Rio de Janeiro,340.68,2024-01-05
+145,João Santos,beatriz.almeida@exemplo.com,Belo Horizonte,221.8,2024-03-01
+146,João Santos,josé.pereira@exemplo.com,Belo Horizonte,921.36,2024-10-03
+147,João Santos,joão.santos@exemplo.com,Belo Horizonte,947.82,2023-12-17
+148,Carlos Souza,carlos.souza@exemplo.com,Rio de Janeiro,547.53,2024-08-02
+149,Ana Silva,carlos.souza@exemplo.com,Curitiba,912.53,2024-04-08
+150,Fernanda Costa,beatriz.almeida@exemplo.com,Belo Horizonte,401.24,2024-11-06
+151,Ana Silva,beatriz.almeida@exemplo.com,São Paulo,997.11,2024-04-10
+152,Mariana Oliveira,ricardo.lima@exemplo.com,Porto Alegre,717.36,2024-06-07
+153,Ricardo Lima,ana.silva@exemplo.com,Belo Horizonte,408.56,2024-05-20
+154,Mariana Oliveira,beatriz.almeida@exemplo.com,São Paulo,425.81,2024-03-22
+155,Ricardo Lima,mariana.oliveira@exemplo.com,Rio de Janeiro,145.6,2024-06-22
+156,Beatriz Almeida,paula.mendes@exemplo.com,Rio de Janeiro,506.6,2024-03-20
+157,Beatriz Almeida,paula.mendes@exemplo.com,São Paulo,488.59,2024-07-12
+158,Ricardo Lima,joão.santos@exemplo.com,Rio de Janeiro,238.51,2024-09-10
+159,Carlos Souza,beatriz.almeida@exemplo.com,Porto Alegre,126.43,2024-04-15
+160,Beatriz Almeida,mariana.oliveira@exemplo.com,Belo Horizonte,239.72,2024-01-17
+161,Fernanda Costa,josé.pereira@exemplo.com,Porto Alegre,439.47,2024-05-22
+162,Paula Mendes,mariana.oliveira@exemplo.com,Belo Horizonte,133.8,2024-10-05
+163,Paula Mendes,carlos.souza@exemplo.com,São Paulo,364.63,2024-01-24
+164,Paula Mendes,mariana.oliveira@exemplo.com,Belo Horizonte,407.72,2024-03-13
+165,João Santos,beatriz.almeida@exemplo.com,São Paulo,443.54,2024-04-14
+166,Beatriz Almeida,carlos.souza@exemplo.com,Rio de Janeiro,508.34,2024-08-08
+167,João Santos,joão.santos@exemplo.com,São Paulo,571.71,2024-10-05
+168,Rafael Campos,carlos.souza@exemplo.com,Rio de Janeiro,959.66,2024-05-23
+169,Ana Silva,carlos.souza@exemplo.com,Porto Alegre,481.2,2024-02-13
+170,Paula Mendes,rafael.campos@exemplo.com,Belo Horizonte,828.91,2024-03-26
+171,Ricardo Lima,beatriz.almeida@exemplo.com,Curitiba,796.52,2024-09-29
+172,Ricardo Lima,mariana.oliveira@exemplo.com,Porto Alegre,563.34,2024-08-22
+173,Ana Silva,carlos.souza@exemplo.com,Curitiba,847.58,2024-07-02
+174,Rafael Campos,mariana.oliveira@exemplo.com,Belo Horizonte,235.49,2023-12-08
+175,Ana Silva,fernanda.costa@exemplo.com,Porto Alegre,798.22,2024-08-06
+176,João Santos,rafael.campos@exemplo.com,Belo Horizonte,482.1,2024-02-20
+177,João Santos,joão.santos@exemplo.com,São Paulo,607.84,2024-02-28
+178,Ricardo Lima,beatriz.almeida@exemplo.com,Curitiba,268.49,2024-10-15
+179,Rafael Campos,rafael.campos@exemplo.com,São Paulo,941.29,2024-05-10
+180,Carlos Souza,ana.silva@exemplo.com,Porto Alegre,715.57,2024-03-22
+181,José Pereira,ana.silva@exemplo.com,Belo Horizonte,599.76,2024-08-09
+182,Ana Silva,joão.santos@exemplo.com,São Paulo,274.81,2024-09-24
+183,Carlos Souza,joão.santos@exemplo.com,Belo Horizonte,773.4,2024-01-15
+184,Mariana Oliveira,rafael.campos@exemplo.com,Belo Horizonte,825.51,2024-11-13
+185,Ricardo Lima,ricardo.lima@exemplo.com,São Paulo,396.26,2024-01-19
+186,Mariana Oliveira,beatriz.almeida@exemplo.com,Rio de Janeiro,387.56,2024-04-29
+187,José Pereira,carlos.souza@exemplo.com,Porto Alegre,763.39,2024-09-10
+188,Mariana Oliveira,ana.silva@exemplo.com,Porto Alegre,579.8,2024-11-05
+189,Rafael Campos,josé.pereira@exemplo.com,Belo Horizonte,591.16,2024-09-16
+190,José Pereira,josé.pereira@exemplo.com,Rio de Janeiro,464.04,2024-05-21
+191,Rafael Campos,fernanda.costa@exemplo.com,São Paulo,819.2,2024-06-16
+192,Paula Mendes,joão.santos@exemplo.com,Curitiba,218.28,2024-06-30
+193,João Santos,paula.mendes@exemplo.com,Curitiba,370.19,2024-06-04
+194,João Santos,rafael.campos@exemplo.com,Belo Horizonte,327.45,2024-08-01
+195,Paula Mendes,joão.santos@exemplo.com,Belo Horizonte,258.04,2024-01-13
+196,Rafael Campos,paula.mendes@exemplo.com,São Paulo,888.51,2024-06-29
+197,Beatriz Almeida,ricardo.lima@exemplo.com,Curitiba,611.33,2024-01-26
+198,Mariana Oliveira,fernanda.costa@exemplo.com,São Paulo,920.55,2023-12-22
+199,João Santos,rafael.campos@exemplo.com,Rio de Janeiro,214.77,2024-01-21
+200,Ana Silva,carlos.souza@exemplo.com,Curitiba,931.81,2024-03-01
+49,Ricardo Lima,fernanda.costa@exemplo.com,Porto Alegre,421.34,2024-05-08
+87,Paula Mendes,ana.silva@exemplo.com,Curitiba,997.72,2024-04-21
+62,José Pereira,ricardo.lima@exemplo.com,Belo Horizonte,647.84,2024-09-29
+58,João Santos,carlos.souza@exemplo.com,Rio de Janeiro,131.21,2024-09-06
+132,Carlos Souza,fernanda.costa@exemplo.com,Belo Horizonte,648.76,2024-07-25
+73,Paula Mendes,fernanda.costa@exemplo.com,Curitiba,926.93,2023-11-30
+110,Mariana Oliveira,josé.pereira@exemplo.com,Rio de Janeiro,517.05,2024-06-23
+37,Fernanda Costa,ana.silva@exemplo.com,Curitiba,607.81,2024-03-25
+24,Carlos Souza,beatriz.almeida@exemplo.com,Belo Horizonte,812.72,2024-03-04
+166,Beatriz Almeida,carlos.souza@exemplo.com,Rio de Janeiro,508.34,2024-08-08
+119,Beatriz Almeida,ricardo.lima@exemplo.com,Belo Horizonte,564.5,2024-06-06
+35,Rafael Campos,fernanda.costa@exemplo.com,Belo Horizonte,169.04,2024-05-06
+98,Fernanda Costa,carlos.souza@exemplo.com,Rio de Janeiro,183.34,2024-02-07
+199,João Santos,rafael.campos@exemplo.com,Rio de Janeiro,214.77,2024-01-21
+153,Ricardo Lima,ana.silva@exemplo.com,Belo Horizonte,408.56,2024-05-20
+163,Paula Mendes,carlos.souza@exemplo.com,São Paulo,364.63,2024-01-24
+76,Fernanda Costa,josé.pereira@exemplo.com,São Paulo,536.75,2024-08-23
+66,Paula Mendes,ricardo.lima@exemplo.com,Curitiba,569.63,2024-01-01
+9,João Santos,ricardo.lima@exemplo.com,Belo Horizonte,283.34,2024-04-09
+108,Carlos Souza,mariana.oliveira@exemplo.com,São Paulo,346.1,2024-09-16

@@ -8,8 +8,3 @@
 # Obs: Sugestão para estrutura de dados do tabuleiro:
 # tab = [['', '', ''], [ '', '', ''], [ '', '', '']]
 
-'''class JogoDaVelha:
-    def __init__(self):
-        
-    def exibeTabuleiro(self):
-        '''

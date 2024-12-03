@@ -6,5 +6,10 @@
 
 # Crie um programa que usa a classe JogoDaVelha para que duas pessoas joguem.
 # Obs: Sugestão para estrutura de dados do tabuleiro:
-# tab = [['', '', ''], [ '', '', ''], [ '', '', '']]
+# tab = [['', '', ''], ['', '', ''], ['', '', '']]
 
+'''class JogoDaVelha:
+    def __init__(self):
+        
+    def exibeTabuleiro(self):
+        '''

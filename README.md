@@ -1,4 +1,4 @@
-Exercícios realizados durante a graduação em Estatística e Ciência de Dados pela Universidade de São Paulo (USP)
+Exercícios realizados durante a graduação em Estatística e Ciência de Dados pela Universidade de São Paulo - USP
 
 ° SME0241 - Introdução à Modelagem Matemática	
 

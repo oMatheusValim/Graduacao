@@ -9,7 +9,7 @@ int main(){
 
     if (notaFinal >= 7){
         cout << "Aprovado";
-    } else if (4 <= notaFinal && notaFinal < 6.9){
+    } else if (4 <= notaFinal && notaFinal < 7){
         cout << "Exame";
     } else{
         cout << "Reprovado";

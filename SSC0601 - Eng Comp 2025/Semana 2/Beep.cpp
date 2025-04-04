@@ -13,5 +13,3 @@ int main(){
         cout << "OK";
     }
 }
-
-// ver com o professor

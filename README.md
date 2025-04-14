@@ -1,11 +1,13 @@
-## Exercícios realizados durante a graduação em Estatística e Ciência de Dados pela Universidade de São Paulo - USP em 2024
+## Exercícios realizados durante a graduação pela Universidade de São Paulo - USP.
+
+### Bacharelado em Estatística e Ciência de Dados - 2024
 
 ° SME0241 - Introdução à Modelagem Matemática	
 
-° SSC0800 - Introdução à Ciência de Computação I
+° SSC0800 - Introdução à Ciência de Computação I (Python)
 
-## Exercícios realizados durante a graduação em Engenharia de Computação pela Universidade de São Paulo - USP em 2025
+### Engenharia de Computação - 2025 - o momento
 
-° SSC0600 - Introdução à Ciência de Computação I
+° SSC0600 - Introdução à Ciência de Computação I  (C++)
 
-° SSC0601 - Laboratório de Introdução à Ciência de Computação I
+° SSC0601 - Laboratório de Introdução à Ciência de Computação I (C++) 

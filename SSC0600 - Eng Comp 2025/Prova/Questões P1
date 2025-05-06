@@ -1,0 +1,119 @@
+## Perceptron: Multiplicação de Vetores – A base das Redes Neurais. [Peso 0.4]
+    Implemente um programa que simule UM neurônio artificial do tipo PERCEPTRON, onde é
+fornecido um vetor de dados de entrada numérico (Vetor de Xi = números em ponto flutuante),
+um vetor de dados numéricos com os respectivos “pesos sinápticos” (Vetor Wi = números de
+ponto flutuante). Além disso é fornecido um valor do BIAS (um valor único de ponto flutuante) e
+um LIMIAR, usado para determinar se o “neurônio” dispara ou não sua saída, usualmente
+usamos 0.0 (zero) como sendo o limiar de disparo do neurônio. No nosso caso vamos adotar
+Zero como sendo o LIMIAR de disparo.
+    De modo mais direto e matemático: os neurônios artificiais do tipo Perceptron implementam
+o produto escalar de 2 vetores (dot product), sendo uma soma ponderada das entradas (Xi)
+multiplicadas pelos pesos sinápticos (Wi), somando com o BIAS e testando se o valor final é
+maior, menor ou igual à um limiar de saída (> 0, < 0, igual a 0)
+
+    A equação representa a saída de um Perceptron: C = Produto do Vetor X multiplicado pelo
+Vetor W, adicionando o BIAS e testando se >, < ou = ao limiar (0.0):
+Se C > 0.0 a Saída é Ativada
+Se C < 0.0 a Saída não é Ativada
+Se C = 0.0 a Saída é indefinida, ou no nosso caso, vamos considerar que não é Ativada
+
+- O primeiro valor lido do teclado será um valor inteiro indicando quantos valores de X e W
+serão lidos. O valor máximo que pode ser indicado é 100 (valor entre 1 e 100).
+- O segundo valor lido é o valor do BIAS, que será um valor de ponto flutuante.
+- Segue uma lista de valores das entradas X, tantos quanto for a quantidade indicada no
+primeiro valor lido. Os valores das entradas X são valores de ponto flutuante.
+- Segue uma lista de valores dos pesos W, tantos quanto for a quantidade indicada no primeiro
+valor lido. Os valores dos pesos W são valores de ponto flutuante.
+
+    O programa calcula e Soma Ponderada de X.W (C sendo a composição dos valores calculada
+com o produto escalar). É adicionado o BIAS ao valor da soma ponderada. O resultado final
+desta operação é exibido na tela com 2 casas após a vírgula.
+    Se o valor exibido for maior que 0.0 é exibida na linha seguinte a mensagem ATIVADO.
+    Se o valor exibido for menor ou igual a 0.0 é exibida na linha seguinte a mensagem INATIVO.
+
+    Entrada:
+2
+0.7
+-1.0
+-1.0
+1.0
+1.0
+    Saída:
+-1.30
+INATIVO
+
+    Entrada:
+2
+0.7
+1.0
+1.0
+1.0
+1.0
+    Saída:
+2.70
+ATIVADO
+
+--------------//--------------
+
+## Codificar e Decodificar STRINGs (Criptografia com Cifra de Cesar e Inverter). [Peso0.6]
+
+    Faça um programa que leia um “código de operação” (string com um caracter) que indica qual
+operação o usuário deseja realizar:
+    
+    - Se o código for “C” ou se contiver a letra ‘C’, o programa deve criptografar a string lida a
+seguir, usando a cifra de Cesar (soma +1 ao código ASCII dos caracteres), e inverte a ordem
+de escrita (colocar na ordem inversa as letras, de trás para a frente), codificando assim a string
+lida.
+    
+    Esta opção escreve na tela a string criptografada ANTES de ser invertida, e a string
+criptografada DEPOIS de ser invertida, uma em cada linha da tela, de acordo com os exemplos
+abaixo.
+    - Se o código for “D” ou se contiver a letra ‘D’, o programa deve descriptografar a string lida a
+seguir, usando a cifra de Cesar (subtrai -1 ao código ASCII dos caracteres), e inverte a ordem
+de escrita (colocar na ordem inversa as letras, de trás para a frente), restituindo assim a string
+original;
+
+    Esta opção escreve na tela a string descriptografada ANTES de ser invertida, e a string
+descriptografada DEPOIS de ser invertida, uma em cada linha da tela, de acordo com os
+exemplos abaixo.
+    - Se o código for “F” ou se contiver a letra ‘F’, o programa deve terminar.
+
+    O programa deve ficar em laço (“loop”) lendo o código de operação, seguido da string, até que
+o código de operação indicado seja “F” / ‘F’. Sendo assim, vamos poder criptografar ou
+descriptografar várias strings.
+    
+    Entrada:
+C
+HELLO
+F
+    Saída:
+IFMMP
+PMMFI
+
+    Entrada:
+D
+PMMFI
+F
+    Saída:
+OLLEH
+HELLO
+
+    Entrada:
+C
+HELLO
+D
+PMMFI
+F
+    Saída:
+IFMMP
+PMMFI
+OLLEH
+HELLO
+    
+    Entrada:
+C
+HELLO WORLD
+F
+    Saída:
+IFMMP!XPSME
+EMSPX!PMMFI

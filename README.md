@@ -2,7 +2,7 @@
 
 ### Bacharelado em Estatística e Ciência de Dados - 2024
 
-° SME0241 - Introdução à Modelagem Matemática	
+° SME0241 - Introdução à Modelagem Matemática	(Python)
 
 ° SSC0800 - Introdução à Ciência de Computação I (Python)
 

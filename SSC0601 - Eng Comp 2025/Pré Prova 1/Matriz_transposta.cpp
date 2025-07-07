@@ -1,3 +1,15 @@
+/*Dada uma matriz de inteiros com N linhas e M colunas, implemente um programa que calcule e exiba a matriz transposta.
+
+A transposta de uma matriz A de dimensões N x M é uma nova matriz B de dimensões M x N, em que cada elemento B[i][j] é igual a A[j][i]. Ou seja, as linhas se tornam colunas e as colunas se tornam linhas.
+Entrada:
+
+    A primeira linha contém dois inteiros N e M (1 ≤ N, M ≤ 100), representando o número de linhas e colunas da matriz.
+    Em seguida, N linhas, cada uma contendo M inteiros, representando os elementos da matriz original.
+
+Saída:
+
+    Imprima M linhas com N inteiros cada, correspondentes à transposta da matriz de entrada.
+*/
 #include <bits/stdc++.h>
 #include <vector>
 using namespace std;

@@ -1,3 +1,11 @@
+/*Um robô começa em uma posição (0, 0) em um plano cartesiano e pode se deslocar nas quatro direções principais: norte, sul, leste e oeste. O robô recebe uma sequência de comandos para se mover. Cada comando é uma letra representando uma direção de movimento:
+
+    N para norte (aumenta o valor de Y),
+    S para sul (diminui o valor de Y),
+    L para leste (aumenta o valor de X),
+    O para oeste (diminui o valor de X).
+
+Dado um número de comandos e a sequência de direções, determine a posição final do robô.*/
 #include <bits/stdc++.h>
 using namespace std;
 

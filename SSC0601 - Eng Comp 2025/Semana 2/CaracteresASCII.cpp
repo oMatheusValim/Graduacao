@@ -1,3 +1,13 @@
+/*Leia 3 caracteres e imprima cada caractere seguido do seu código ASCII.
+
+Entrada:
+
+    3 caracteres.
+
+Saída:
+
+    Cada caractere seguido de seu código ASCII.
+*/
 #include <iostream>
 using namespace std;
 

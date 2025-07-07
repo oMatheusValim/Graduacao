@@ -1,3 +1,6 @@
+/*Ler 3 conjuntos de 10 números (3 vetores de números inteiros), que já estão ordenados e sem repetição (cada conjunto tem 10 números).
+Os números inteiros terão no máximo 5 dígitos. 
+Criar um vetor final que faz a “união” dos 3 vetores (30 números), mantendo os números ordenados ("merge sort" - Junta ordenadamente). */
 #include <bits/stdc++.h>
 #include <vector>
 #include <algorithm>

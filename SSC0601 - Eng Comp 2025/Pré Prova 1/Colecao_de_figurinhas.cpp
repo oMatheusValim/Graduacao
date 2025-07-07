@@ -1,3 +1,15 @@
+/*Lucas e Sofia colecionam figurinhas numeradas de 1 até 1000. Lucas possui algumas repetidas e Sofia está precisando completar sua coleção. Escreva um programa que determine quantas figurinhas diferentes Lucas pode fornecer a Sofia.
+Entrada:
+
+    A primeira linha contém dois inteiros separados por espaço:
+    N (o número total de figurinhas de Lucas) e
+    M (o número de figurinhas de Sofia).
+    A segunda linha contém N inteiros representando os números das figurinhas de Lucas.
+    A terceira linha contém M inteiros representando os números das figurinhas de Sofia.
+
+Saída:
+
+Uma única linha contendo um inteiro: o número máximo de figurinhas diferentes que Lucas pode fornecer para Sofia.*/
 #include <bits/stdc++.h>
 using namespace std;
 

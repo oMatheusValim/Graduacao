@@ -1,3 +1,14 @@
+/*Dado três números inteiros positivos, calcule o máximo divisor comum (MDC) e o mínimo múltiplo comum (MMC) entre eles.
+Entrada
+
+A entrada consiste de uma única linha com três inteiros positivos A, B e C (1 ≤ A, B, C ≤ 10^6), separados por espaços.
+Saída
+
+Imprima duas linhas:
+
+    A primeira linha deve conter o valor do MDC entre os três números.
+    A segunda linha deve conter o valor do MMC entre os três números.
+*/
 #include <iostream>
 using namespace std;
 

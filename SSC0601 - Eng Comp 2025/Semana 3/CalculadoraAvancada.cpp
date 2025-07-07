@@ -1,3 +1,21 @@
+/*Você deve implementar uma calculadora avançada que suporta dois modos de operação: Normal e Científico. O programa recebe uma sequência de comandos compactos que especificam o modo e a operação a ser realizada. Para cada operação, o programa deve calcular e imprimir o resultado.
+Modos e Operações
+
+    Modo Normal (1)
+        1 1 A B → Soma (A + B)
+        1 2 A B → Subtração (A - B)
+        1 3 A B → Multiplicação (A × B)
+        1 4 A B → Divisão (A / B) (B ≠ 0) 
+
+    Modo Científico (2)
+
+        2 1 A B → Potência (A^B)
+
+        2 2 A → Raiz quadrada (√A) (A ≥ 0)
+
+        2 3 A → Logaritmo natural (ln A) (A > 0) 
+
+A leitura termina quando for lida uma linha em que o modo seja 0.*/
 #include <iostream>
 #include <vector>
 #include <cmath>

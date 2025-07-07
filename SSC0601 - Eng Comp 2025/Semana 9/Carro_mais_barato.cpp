@@ -1,3 +1,24 @@
+/*Você foi contratado por uma revendedora de veículos para desenvolver um programa que ajude a identificar o carro mais barato dentre uma lista de carros disponíveis para venda. Cada carro é descrito por cinco informações: fabricante, modelo, ano, cor e preço.
+
+Seu programa deverá ler os dados de N carros e informar, ao final, o modelo do carro mais barato.
+Entrada
+
+A entrada consiste de:
+
+    Um número inteiro N (1 ≤ N ≤ 100), representando a quantidade de carros.
+    Em seguida, N linhas contendo as informações de cada carro, uma por linha, no seguinte formato:
+
+fabricante modelo ano cor preco
+
+    fabricante: uma string sem espaços (máximo 20 caracteres).
+    modelo: uma string sem espaços (máximo 20 caracteres).
+    ano: um número inteiro entre 1900 e 2100.
+    cor: uma string sem espaços (máximo 20 caracteres).
+    preco: um número real positivo com no máximo duas casas decimais.
+
+Saída
+
+Seu programa deve imprimir uma única linha contendo o modelo do carro mais barato. Se houver mais de um carro com o menor preço, imprima o modelo do primeiro deles que apareceu na entrada.*/
 #include <iostream>
 #include <iomanip>
 #include <vector>

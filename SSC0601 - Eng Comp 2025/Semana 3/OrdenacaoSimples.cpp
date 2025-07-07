@@ -1,3 +1,4 @@
+/*Dado três números inteiros distintos, sua tarefa é escrevê-los em ordem crescente. */
 #include <bits/stdc++.h>
 using namespace std;
 

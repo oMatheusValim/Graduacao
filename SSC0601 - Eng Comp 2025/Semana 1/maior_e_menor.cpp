@@ -1,3 +1,4 @@
+/*Escreva um programa que leia dois números inteiros e exiba qual é o maior deles. Caso os números sejam iguais, informe que são iguais imprimindo a mensagem "igual".*/
 #include <bits/stdc++.h>
 using namespace std;
 

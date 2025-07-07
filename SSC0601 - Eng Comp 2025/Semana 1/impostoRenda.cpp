@@ -1,3 +1,19 @@
+/*O programa deve calcular o imposto de renda a ser pago com base no salário bruto de um funcionário, de acordo com a tabela progressiva de impostos a seguir:
+
+    Até R$ 1.500,00: Isento
+    De R$ 1.501,00 a R$ 2.500,00: 10%
+    De R$ 2.501,00 a R$ 3.500,00: 15%
+    Acima de R$ 3.500,00: 20%
+    Após calcular o imposto, o programa também deve calcular o salário líquido (salário bruto menos o imposto) e exibir ambos.
+
+Entrada:
+
+    Um número real representando o salário bruto do funcionário.
+
+Saída:
+
+    O valor do imposto de renda a ser pago e o salário líquido (com duas casas decimais).
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

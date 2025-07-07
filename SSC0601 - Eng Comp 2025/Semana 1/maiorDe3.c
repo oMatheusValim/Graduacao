@@ -1,3 +1,4 @@
+/*Escreva um programa que leia três números inteiros e determine qual é o maior número entre eles. Caso haja empate, informe que há números iguais. Neste caso seu programa deve imprimir "Ha numeros iguais"*/
 #include <stdio.h>
 
 int main() {

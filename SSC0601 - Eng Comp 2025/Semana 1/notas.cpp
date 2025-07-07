@@ -1,3 +1,4 @@
+/*Leia duas notas de um aluno e calcule a média aritmética. Se a média for maior ou igual a 8, o programa deve informar "Aprovado". Caso contrário, deve informar "Reprovado".*/
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,51 @@
+/*Implemente um programa que identifique o tipo de um arquivo com base na assinatura (magic number) presente nos primeiros bytes do arquivo. O programa deve reconhecer os seguintes tipos de arquivos:
+Formato 	Assinatura (em hexadecimal) 	ASCII
+BMP 	42 4D 	BM
+PNG 	89 50 4E 47 0D 0A 1A 0A 	.PNG....
+GIF 	47 49 46 38 	GIF8
+JPEG 	FF D8 FF 	ÿØÿ
+PDF 	25 50 44 46 	%PDF
+ZIP 	50 4B 03 04 	PK..
+ELF (Linux executável) 	7F 45 4C 46 	.ELF
+WAV 	52 49 46 46 	RIFF
+MP3 	FF FB ou 49 44 33 	ÿû ou ID3
+
+Caso a assinatura não corresponda a nenhuma dessas, o programa deve imprimir: Tipo de arquivo desconhecido.
+Entrada
+
+A entrada consiste de uma linha com uma string nome_arquivo representando o nome do arquivo.
+
+    Comprimento máximo de nome_arquivo: 100 caracteres.
+    O nome não contém espaços.
+
+Restrições adicionais:
+
+    O arquivo a ser analisado estará presente no mesmo diretório da execução.
+    O programa deve abrir o arquivo em modo binário.
+    O programa deve ler até 8 bytes do início do arquivo.
+    Não utilizar bibliotecas além de stdio.h e string.h.
+
+Saída
+
+O programa deve imprimir, em uma única linha, uma das seguintes mensagens, conforme o tipo detectado:
+
+    Arquivo BMP
+    Arquivo PNG
+    Arquivo GIF
+    Arquivo JPEG
+    Arquivo PDF
+    Arquivo ZIP
+    Arquivo ELF
+    Arquivo WAV
+    Arquivo MP3
+    Tipo de arquivo desconhecido
+
+Limites
+
+    O arquivo pode ter tamanho variável, mas sempre terá pelo menos 8 bytes.
+    Apenas os primeiros 8 bytes devem ser lidos e analisados.
+    O arquivo não será alterado ou renomeado.
+*/
 #include <cstdio>  
 #include <cstring> 
 

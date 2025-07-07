@@ -1,3 +1,8 @@
+/*Escreva um programa em C que leia o conteúdo de um arquivo texto com três linhas e imprima cada linha na saída padrão, uma por vez, mantendo a mesma ordem.
+
+Entrada: O nome do arquivo a ser lido (por exemplo, dados.txt). O nome será fornecido pela entrada padrão (stdin).
+
+Saída esperada: As três linhas contidas no arquivo, uma por linha.*/
 #include <iostream>
 #include <fstream>
 #include <string>

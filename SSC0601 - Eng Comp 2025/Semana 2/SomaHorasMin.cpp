@@ -1,3 +1,13 @@
+/*Leia duas durações no formato "HH:MM" e exiba a soma delas no mesmo formato.
+
+Entrada:
+
+    Duas linhas, cada uma contendo uma duração no formato "HH:MM".
+
+Saída:
+
+    A soma das duas durações, ajustando corretamente as horas e minutos.
+*/
 #include <bits/stdc++.h>
 #include <iomanip>
 using namespace std;

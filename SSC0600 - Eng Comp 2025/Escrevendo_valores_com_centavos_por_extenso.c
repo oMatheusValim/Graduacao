@@ -1,3 +1,10 @@
+/*LER UM VALOR DE PONTO FLUTUANTE (entre 0.0 e 999.99)
+ESCREVER ESTE NUMERO DA SEGUINTE FORMA:
+* Quantidade de Centenas
+* Quantidade de Dezenas
+* Quantidade de Unidades
+* E os centavos por extenso! (entre 0 e 99 centavos! Pelo menos entre 0 e 20 centavos, ok?) 
+*/
 #include <stdio.h>
 #include <string.h>
 

@@ -1,3 +1,7 @@
+/*Escreva um programa que leia 3 valores inteiros (lidos da entrada)
+Escreva os tres valores em ordem crescente na tela seguinte forma:
+(menor valor) (valor do meio) (maior valor)
+Se os 3 valores forem iguais escreva a mensagem: "Valores iguais" */
 #include <stdio.h>
 
 int main() {

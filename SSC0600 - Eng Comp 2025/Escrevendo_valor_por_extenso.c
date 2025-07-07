@@ -1,3 +1,9 @@
+/*LER UM VALOR INTEIRO (ENTRE 0 e 999) E ESCREVER NA TELA DA SEGUINTE FORMA:
+* Nro. de centenas
+* Nro. de dezenas
+* Unidades "por extenso"
+(sempre sem acentos ou caracteres especiais, siga o exemplo abaixo) 
+*/
 #include <stdio.h>
 
 int main() {

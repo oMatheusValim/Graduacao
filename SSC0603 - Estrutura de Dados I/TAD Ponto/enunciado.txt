@@ -1,0 +1,13 @@
+O Livro de Estrutura do Backes propõe um TAD "PONTO" para calcular a distância de 2 pontos,
+porém o código disponibilizado foi feito para o CODEBLOCKS e não para o RUNCODES.
+Adapte o código para:
+    Ler o ponto 1 com 2 valores float x1,y1 (ler do teclado)
+
+    Ler o ponto 2 com 2 valores float x2,y2 (ler do teclado)
+
+    Calcule a distância euclidiana dos pontos usando as funções do TAD-PONTO!
+
+    Exibir na saída (tela) o valor da distância calculada, com 2 casas após a vírgula.
+
+Você vai ter que usar um MAKEFILE para compilar os diferentes arquivos juntos. 
+Veja no material da AULA03 como fazer um Makefile!

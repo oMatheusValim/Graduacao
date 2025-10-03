@@ -11,3 +11,6 @@
 ° SSC0600 - Introdução à Ciência de Computação I  (C++)
 
 ° SSC0601 - Laboratório de Introdução à Ciência de Computação I (C++) 
+
+° SSC0603 - Estrutura de Dados I (C)
+

@@ -1,0 +1,5 @@
+Criar um programa com uma lista LDES usando a TAD LDES do Backes/Osorio
+
+1. Ler do teclado 10 números (double) e inserir ordenadamente em uma LDES (Lista Dinâmica Encadeada Simples)
+
+2. Exibir os dados da LISTA LDES na tela (serão exibidos ordenados), com 2 casas após a vírgula. 

@@ -1,0 +1,19 @@
+Uma analista de e-commerce precisa consolidar os dados de vendas do dia. Ela possui uma lista de transações, onde cada transação contém a categoria do produto e o valor da venda.
+
+**Problema:**
+Sua tarefa é criar um programa que leia uma lista de vendas e gere um relatório estatístico para cada categoria de produto. O relatório deve conter o número de vendas, o valor médio das vendas e o valor total arrecadado para cada categoria.
+
+**Entrada:**
+
+  * A primeira linha contém um inteiro `N`, o número de vendas a serem processadas.
+  * As `N` linhas seguintes contêm uma venda no formato `"categoria,valor"`.
+
+**Saída:**
+Imprima um relatório contendo as estatísticas para cada categoria, ordenadas alfabeticamente pelo nome da categoria. Os valores de média e total devem ser formatados com 2 casas decimais. O formato exato deve ser:
+
+```
+Categoria: [Nome da Categoria]
+  - Vendas: [Número de Vendas]
+  - Média: R$ [Valor Médio]
+  - Total: R$ [Valor Total]
+```

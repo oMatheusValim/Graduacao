@@ -1,0 +1,90 @@
+Em Estatística e Ciência de Dados, frequentemente queremos analisar nossos dados de uma perspectiva diferente. Em Álgebra Linear, isso é chamado de "mudança de base". Por exemplo, na técnica de PCA (Análise de Componentes Principais), transformamos nossos dados de uma base original (as features do dataset) para uma nova base (os componentes principais) que melhor explica a variância dos dados.
+
+**Problema:**
+Você está trabalhando com duas bases em R³:
+
+1.  A base "antiga" `B ={e1, e2, e3}` (pense nela como a base canônica `i, j, k`).
+2.  A base "nova" `C = {c1, c2, c3}`.
+
+Você recebeu a descrição dos vetores da nova base `C` escritos em termos da base `B`. Por exemplo:
+
+```
+c1 = a1e1 + b1e2 + c1e3
+c2 = a2e1 + b2e2 + c2e3
+c3 = a3e1 + b3e2 + c3e3
+```
+
+Sua tarefa é usar a biblioteca **NumPy** para calcular as duas matrizes de mudança de base:
+
+1.  `Matriz C -> B`: A matriz que "traduz" um vetor da base `C` de volta para a base `B`.
+2.  `Matriz B-> C`: A matriz que "traduz" um vetor da base `B` para a nova base `C`.
+
+**Entrada:**
+A entrada consiste em 3 linhas.
+
+  * A primeira linha contém os 3 coeficientes do vetor `c1`, na ordem `a1, b1, c1`.
+  * A segunda linha contém os 3 coeficientes do vetor `c2`, na ordem `a2, b2, c2`.
+  * A terceira linha contém os 3 coeficientes do vetor `c3`, na ordem `a3, b3, c3`.
+    Todos os números são inteiros, separados por espaço.
+
+**Saída:**
+O programa deve imprimir as duas matrizes, com os números formatados para melhor leitura. Caso a nova base `C` não seja válida (seus vetores forem Linearmente Dependentes), o programa deve informar o erro.
+
+-----
+
+### Dicas de Implementação com NumPy
+
+Para resolver este problema, você precisará importar o `numpy`.
+
+**Passo 1: Leitura e Armazenamento dos Dados**
+
+  * Leia as três linhas de entrada. A melhor forma de fazer isso é ler cada linha, usar `.split()` e `map(int, ...)` para converter os números, e guardar os coeficientes em três listas separadas (ex: `c1_coords`, `c2_coords`, `c3_coords`).
+
+**Passo 2: Construindo a Matriz de C para B**
+
+  * **Teoria:** A matriz de mudança da base `C` para a base `B` (`Matriz C -> B`) é formada simplesmente colocando os vetores de coordenadas da nova base como as **colunas** da matriz.
+  * **Implementação NumPy:**
+    1.  Primeiro, crie uma lista de listas com suas coordenadas: `dados = [c1_coords, c2_coords, c3_coords]`.
+    2.  Ao converter isso para um array NumPy com `M = np.array(dados)`, o NumPy irá criar uma matriz onde os vetores `c1, c2, c3` são as **linhas**.
+    3.  Para corrigir isso e transformar as linhas em colunas, você precisa calcular a **Transposta** da matriz. Em NumPy, isso é feito de forma muito simples acessando a propriedade `.T`.
+    4.  Portanto, sua matriz final será: `matriz_C_para_B = np.array(dados).T`
+
+**Passo 3: Calculando a Matriz  de B para C**
+
+  * **Teoria:** A matriz que faz a tradução inversa (de `B` para `C`) é, por definição, a **matriz inversa** da Matriz de C para B$.
+  * **Implementação NumPy:** Você não precisa implementar o complexo algoritmo da matriz inversa. O NumPy faz isso para você através do seu submódulo de Álgebra Linear (`linalg`).
+      * O comando é: `matriz_B_para_C = np.linalg.inv(matriz_C_para_B)`
+
+**Passo 4: Lidando com Erros (Programação Robusta)**
+
+  * **Teoria:** Uma matriz só pode ser invertida se seus vetores-coluna forem Linearmente Independentes (L.I.), ou seja, se seu determinante não for zero. Se os vetores forem L.D., a matriz é "singular" e não forma uma base válida.
+  * **Implementação NumPy:** Se você tentar chamar `np.linalg.inv()` em uma matriz singular, o NumPy irá levantar um erro que quebraria seu programa. 
+
+**Passo 5: Formatação da Saída **
+
+  * Para que os números de ponto flutuante da matriz inversa fiquem mais legíveis (ex: `0.11765` em vez de `0.1176470588235294`), você pode configurar o NumPy antes de imprimir:
+      * `np.set_printoptions(precision=5, suppress=True)`
+      * `precision=5` define o número de casas decimais.
+      * `suppress=True` evita que o NumPy use notação científica.
+
+---
+### Exemplo
+Entrada
+```
+1 1 -1
+0 2 3
+3 0 1
+```
+
+Saída
+```
+--- Matriz de C para B ---
+[[ 1  0  3]
+ [ 1  2  0]
+ [-1  3  1]]
+
+--- Matriz de B para C ---
+[[ 0.118  0.529 -0.353]
+ [-0.059  0.235  0.176]
+ [ 0.294 -0.176  0.118]]
+```

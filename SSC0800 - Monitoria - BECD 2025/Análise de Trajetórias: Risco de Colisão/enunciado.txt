@@ -1,0 +1,88 @@
+Sua tarefa é criar um programa que determina se dois segmentos de reta em um plano 2D se cruzam. Você receberá quatro pontos: `P1` e `P2` que formam o primeiro segmento, e `P3` e `P4` que formam o segundo.
+
+### Entrada
+
+A entrada consiste em **4 linhas**. Cada linha contém dois números inteiros `x` e `y` (coordenadas do ponto), separados por um espaço. A ordem dos pontos é: P1, P2, P3 e P4.
+
+### Saída
+
+O programa deve imprimir uma única linha contendo a palavra `"SIM"` se os segmentos se cruzam, ou `"NAO"` caso contrário.
+
+### Dicas Teóricas e Passos
+
+A interseção entre dois segmentos de reta pode ser determinada algebricamente. A ideia é encontrar dois parâmetros, `t` e `u`, que nos dizem em que ponto de cada segmento a interseção ocorre.
+Pense em `t` e `u` como a fração do caminho percorrido em cada segmento. Se `t=0`, estamos no ponto `P1`. Se `t=1`, estamos no ponto `P2`. Se `t=0.5`, estamos exatamente na metade do caminho *entre* `P1` e `P2`. O mesmo raciocínio vale para `u` e o segmento `P3-P4`.
+Imagine os segmentos como caminhos:
+  * Um ponto no primeiro segmento pode ser descrito como `P1 + t * (P2 - P1)`.   
+* Explicação: Esta fórmula significa: "comece no ponto P1 e avance uma fração `t` do vetor de direção total `(P2 - P1)`".
+
+  * Um ponto no segundo segmento pode ser descrito como `P3 + u * (P4 - P3)`.
+* Explicação: Da mesma forma, "comece no ponto `P3` e avance uma fração `u` do caminho total em direção a `P4`".
+Os segmentos se cruzam se pudermos encontrar `t` e `u` que tornem esses dois pontos iguais, com a condição de que ambos `t` e `u` devem estar entre 0 e 1. Esta condição garante que o ponto de encontro está no corpo físico dos segmentos, e não em uma extensão imaginária das retas.
+
+**1. Calcule o Denominador (Teste de Paralelismo)**
+
+  * **Teoria:** Primeiro, calcule um valor-chave, o denominador 'den', que nos dirá se as retas são paralelas. Se `den` for zero, as retas são paralelas ou colineares e, para este problema, consideraremos que não se cruzam.
+
+* Explicação: Matematicamente, este denominador está relacionado ao produto vetorial dos vetores de direção. Em 2D, quando ele é zero, significa que os vetores apontam na mesma direção (ou opostas), caracterizando as retas como paralelas.
+* `den = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)`
+Se den for igual a 0, você já pode imprimir "NAO" e encerrar.
+
+**2. Calcule `t` e `u`**
+
+  * **Teoria:** Se `den` for diferente de zero, você pode encontrar `t` e `u` usando as seguintes fórmulas.
+ 
+ * Para t:
+   * Numerador de `t`: `num_t = (x1 - x3) * (y3 - y4) - (y1 - y3) * (x3 - x4)`
+   * `t = num_t / den`
+ * Para `u`:
+   * Numerador de `u`: `num_u = -((x1 - x2) * (y1 - y3) - (y1 - y2) * (x1 - x3))`
+   * `u = num_u / den`
+  * **Comando NumPy Chave**: Para resolver o sistema de forma eficiente, utilize a função numpy.linalg.solve(). Para lidar com o caso especial de retas paralelas, é uma boa prática envolver essa chamada em um bloco try...except, capturando o erro numpy.linalg.LinAlgError. 
+
+**3. A Verificação Final**
+
+  * **Teoria:**  Este é o passo mais importante. Os segmentos de reta (e não as retas infinitas) só se cruzam se o ponto de interseção estiver dentro de ambos. Isso acontece se, e somente se, os dois valores encontrados cumprirem a seguinte condição:
+ * 0 <= t <= 1  E 0 <= u <= 1
+ * Explicação: Lembre-se que t e u representam a fração do caminho. Se o cálculo resultar em t=2.0, por exemplo, significa que o ponto de encontro só ocorreria se o primeiro segmento tivesse o dobro do seu comprimento, ou seja, fora do segmento físico que nos interessa. Por isso, ambos devem estar entre 0% (0.0) e 100% (1.0) do caminho.
+Se essa condição for verdadeira, imprima "SIM". Caso contrário, imprima "NAO".
+
+### Exemplos
+
+**Exemplo 1: Interseção Clara**
+*Entrada*
+
+```
+0 0
+1 1
+0 1
+1 0
+```
+
+*Saída*
+
+```
+SIM
+```
+
+*(Explicação: A solução do sistema é t=0.5 e u=0.5. Ambos estão em [0, 1].)*
+
+-----
+
+**Exemplo 2: Retas Paralelas**
+*Entrada*
+
+```
+0 0
+1 1
+0 1
+1 2
+```
+
+*Saída*
+
+```
+NAO
+```
+
+*(Explicação: As retas são paralelas, o que causa um erro na solução do sistema, que deve ser tratado como "NAO".)*

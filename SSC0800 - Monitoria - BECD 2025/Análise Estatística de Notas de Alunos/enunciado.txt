@@ -1,0 +1,47 @@
+Um professor precisa de uma ferramenta para calcular rapidamente as estatísticas de desempenho de seus alunos. Ele tem uma lista de todas as notas lançadas, mas precisa agrupar essas notas por aluno para analisar a performance individual.
+
+**Problema:**
+Crie um programa que leia uma série de lançamentos de notas no formato `"NomeDoAluno,Nota"`. Após ler todas as notas, o programa deve calcular e exibir a **média**, a **mediana** e o **desvio padrão** para cada aluno.
+
+**Tarefa Final:**
+
+1.  Leia um número `N` de lançamentos de notas.
+2.  Agrupe todas as notas de um mesmo aluno.
+3.  Para cada aluno, use a biblioteca **NumPy** para calcular as estatísticas.
+4.  Imprima um relatório final com as estatísticas de cada aluno, em ordem alfabética pelo nome.
+
+**Entrada:**
+
+  * A primeira linha contém um inteiro `N`, o número de lançamentos de notas.
+  * As `N` linhas seguintes contêm uma nota no formato `"Nome,Nota"`.
+
+**Saída:**
+Um relatório formatado como no exemplo, com os nomes dos alunos em ordem alfabética e os valores numéricos com 2 casas decimais.
+
+**Exemplo** 
+
+Entrada
+```
+5
+Ana,8.0
+Beto,7.5
+Ana,9.0
+Carlos,10.0
+Beto,8.5
+```
+
+Saída
+```
+Aluno(a): Ana
+- Média: 8.50
+- Mediana: 8.50
+- Desvio Padrão: 0.50
+Aluno(a): Beto
+- Média: 8.00
+- Mediana: 8.00
+- Desvio Padrão: 0.50
+Aluno(a): Carlos
+- Média: 10.00
+- Mediana: 10.00
+- Desvio Padrão: 0.00
+```

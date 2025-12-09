@@ -1,0 +1,53 @@
+Sofia está analisando o log de GPS de um drone de entregas. O log contém uma sequência de coordenadas cartesianas `(x, y)` que marcam a trajetória do drone durante uma missão.
+
+Para seu primeiro relatório, Sofia precisa calcular a **distância total** percorrida pelo drone. A trajetória é formada por segmentos de reta que conectam os pontos de GPS em ordem.
+
+Sua tarefa é criar um programa que receba uma série de coordenadas e calcule o comprimento total da rota.
+
+### A Fórmula da Distância
+
+A distância euclidiana entre dois pontos `(x_1, y_1)` e `(x_2, y_2)` em um plano cartesiano é dada pela fórmula:
+
+![equacao](https://quicklatex.com/cache3/37/ql_73b4770cf5729009ff621ffc0cb38337_l3.png)
+
+O programa deve calcular a distância entre o 1º e o 2º ponto, depois entre o 2º e o 3º, e assim por diante, somando todas essas distâncias para obter a distância total.
+
+### Entrada
+
+A entrada consiste em várias linhas:
+
+1.  A primeira linha contém um número inteiro `N`, representando o número total de pontos de GPS na trajetória.
+2.  As `N` linhas seguintes contêm, cada uma, um par de números inteiros `x` e `y`, separados por um espaço, representando as coordenadas de cada ponto na ordem da trajetória.
+
+### Saída
+
+O programa deve imprimir uma única linha contendo a distância total percorrida pelo drone, formatada com **4 casas decimais**.
+
+### Dica
+
+  * Você precisará da biblioteca `math` para usar a função de raiz quadrada (`math.sqrt`).
+  * Uma boa maneira de organizar os dados é criar uma lista onde cada elemento é outra lista conteúdo um par de coordenadas, como `coordenadas = [[x1, y1], [x2, y2], ... , [xn, yn]]`.
+  * Utilize `len(vetor)` para saber o tamanho do vetor
+
+### Exemplo
+
+*Entrada*
+
+```
+3
+0 0
+3 0
+3 4
+```
+
+*Saída*
+
+```
+7.0000
+```
+
+*Explicação: A trajetória tem dois segmentos:*
+
+1.  *De (0, 0) para (3, 0): distância = 3.0*
+2.  *De (3, 0) para (3, 4): distância = 4.0*
+    *Total: 3.0 + 4.0 = 7.0*

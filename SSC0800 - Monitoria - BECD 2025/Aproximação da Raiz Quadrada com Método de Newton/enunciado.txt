@@ -1,0 +1,38 @@
+Em muitas aplicações científicas e de engenharia, encontrar valores exatos é computacionalmente caro ou impossível. Por isso, usamos métodos numéricos para encontrar aproximações. O **método de Newton** é um algoritmo poderoso para encontrar raízes de funções e pode ser usado para aproximar a raiz quadrada de um número.
+
+Dado um número real **E** e um número de iterações **N**, sua tarefa é calcular a raiz quadrada aproximada de **E**. Para fins de análise de convergência (uma tarefa comum em ciência de dados), você deve **armazenar o resultado de cada iteração em um vetor NumPy**.
+
+A fórmula de recorrência para a aproximação é:
+
+![equcao](https://quicklatex.com/cache3/5b/ql_f87c2b97601608dbe102d1d197b9555b_l3.png)
+
+A primeira aproximação (o "chute" inicial) deve ser `R_1 = E/2`.
+
+### Entrada
+
+A entrada consiste em uma única linha contendo dois números separados por um espaço:
+
+  * Um número de ponto flutuante `E` (`1 <= E <= 10^9`) representando o valor cuja raiz quadrada será aproximada.
+  * Um número inteiro `N` (`1 <= N <= 1000`) representando o número de iterações.
+
+### Saída
+
+Imprima a aproximação da raiz quadrada de `E` obtida **após N iterações** (ou seja, o último valor calculado), com **6 casas decimais de precisão**.
+
+### Guia de Implementação com Python e NumPy
+
+1.  **Importe a biblioteca NumPy:** Comece com `import numpy as np`.
+2.  **Leia a Entrada:** Leia a linha e separe os valores de `E` (float) e `N` (inteiro).
+3.  **Crie o Vetor:** Crie um vetor NumPy de tamanho `N` para guardar as `N` aproximações. Uma boa forma é inicializá-lo com zeros: `aproximacoes = np.zeros(N)`.
+4.  **Primeira Iteração:** Calcule o valor inicial ($R\_1 = E / 2$) e armazene-o na primeira posição do vetor (`aproximacoes[0]`).
+5.  **Loop de Iterações:** Crie um laço `for` que execute `N-1` vezes (por exemplo, de `1` até `N-1`). Em cada passo do laço, calcule a nova aproximação `R_{n+1}` usando o valor da aproximação anterior `R\_n` (que já está salvo no seu vetor) e armazene o novo resultado na posição atual.
+6.  **Resultado Final:** O resultado que você deve imprimir é o último valor armazenado no seu vetor de aproximações.
+
+### Exemplos
+
+| Entrada         | Saída      |
+| :-------------- | :--------- |
+| `25.0 5`        | `5.000013` |
+| `2.0 10`        | `1.414214` |
+| `98765.4321 20` | `314.269681` |
+

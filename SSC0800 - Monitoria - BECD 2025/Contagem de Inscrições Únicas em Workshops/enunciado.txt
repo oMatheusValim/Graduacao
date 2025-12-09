@@ -1,0 +1,46 @@
+Você está ajudando a organizar a semana acadêmica de Estatística e Ciência de Dados. Uma de suas tarefas é contar quantos alunos **únicos** se inscreveram em cada workshop. A lista de inscrições pode conter registros duplicados, pois alguns alunos podem ter se inscrito na mesma atividade mais de uma vez por engano.
+
+Sua tarefa é criar um programa que processe uma lista de inscrições e, ao final, informe o número de participantes únicos para um workshop específico.
+
+### Entrada
+
+A entrada do programa é dividida em duas partes:
+
+1.  A primeira linha contém um número inteiro `N`, o número total de tentativas de inscrição a serem lidas.
+2.  As `N` linhas seguintes contêm as inscrições, cada uma no formato de **string** `"nome,workshop"`.
+3.  A **última linha** contém o nome do workshop que você deve analisar (a consulta).
+
+### Saída
+
+O programa deve imprimir um único número inteiro: a quantidade de alunos únicos inscritos no workshop consultado.
+
+### Dica de Estrutura de Dados
+
+Esta é uma ótima oportunidade para combinar diferentes estruturas de dados:
+
+  * Use um **dicionário** para organizar os dados, onde cada chave é o nome de um workshop (uma **string**).
+  * O valor associado a cada chave no dicionário deve ser um **conjunto (set)**. Use o conjunto para armazenar os nomes dos alunos inscritos naquele workshop. A grande vantagem do conjunto é que ele **automaticamente ignora itens duplicados**.
+  * Para este problema, não há uma necessidade forte de **tuplas**, mas você pode usá-las para praticar, por exemplo, guardando os pares `(nome, workshop)` em uma lista antes de processá-los, se preferir.
+
+**Exemplo**
+
+*Entrada*
+
+```
+6
+Ana,Python
+Beto,R
+Carlos,Python
+Ana,Python
+Bia,R
+Ana,R
+Python
+```
+
+*Saída Esperada*
+
+```
+2
+```
+
+*(Explicação: Apenas Ana e Carlos são os participantes únicos de Python.)*

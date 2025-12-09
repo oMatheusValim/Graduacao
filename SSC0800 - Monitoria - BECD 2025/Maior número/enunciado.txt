@@ -1,0 +1,34 @@
+Leonardo é um garoto muito criativo. Ele adora criar desafios para seus colegas da escola. Seu último desafio é o seguinte: diversos números são ditos em voz alta, um de cada vez. Quando o número `0` (zero) é dito, o desafio termina e seus colegas devem dizer imediatamente qual foi o maior número da sequência.
+
+Leonardo tem dificuldade de verificar se a resposta dos colegas está correta, pois a sequência de números costuma ser longa. Por este motivo, ele resolveu pedir sua ajuda.
+
+Sua tarefa é escrever um programa que, dada uma sequência de números inteiros positivos terminada por `0`, imprime o maior número lido.
+
+### Entrada
+
+A entrada consiste em **várias linhas**, cada uma contendo um único número inteiro. A sequência termina quando o número `0` é lido, o qual indica o fim da entrada e não faz parte da sequência de valores.
+
+### Saída
+
+Seu programa deve imprimir uma única linha contendo o maior número dentre os números da entrada (excluindo o zero final).
+
+## Exemplo 
+
+*Entrada*
+
+```
+10
+30
+20
+5
+0
+```
+
+*Saída*
+
+```
+30
+```
+
+-----
+

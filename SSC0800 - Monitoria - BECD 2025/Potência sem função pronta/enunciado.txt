@@ -1,0 +1,1 @@
+Ler x e y e calcular x^y sem usar funções ou o operador de potência da linguagem Python.

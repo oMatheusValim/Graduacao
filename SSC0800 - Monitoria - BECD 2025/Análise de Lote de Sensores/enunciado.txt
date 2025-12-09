@@ -1,0 +1,69 @@
+Dr. Alves, um cientista ambiental, está monitorando a qualidade da água de um lago usando um sensor de pH automatizado. O sensor envia os dados em "lotes" (sequências de medições). Sua tarefa é criar um programa para processar um desses lotes.
+
+O programa deve ler uma sequência de valores de pH. No entanto, o sensor às vezes apresenta falhas e envia leituras absurdas. Além disso, cada lote é finalizado com um código numérico específico.
+
+### Regras de Processamento
+
+O seu programa deve ler os números um por um e seguir estas regras:
+
+1.  O loop de leitura deve continuar indefinidamente até encontrar o código de término.
+2.  **Código de Término:** O número `-1.0` é um código especial que indica o fim do lote. Ao ler `-1.0`, o programa deve parar de coletar dados e encerrar o loop. Este número **não** deve ser considerado uma medição de pH.
+3.  **Leitura Inválida:** Uma leitura de pH só é biologicamente válida se estiver no intervalo de **0.0 a 14.0**, inclusive. Qualquer número fora desse intervalo é considerado uma falha do sensor e deve ser ignorado.
+
+Todos os números que forem leituras válidas (dentro do intervalo [0.0, 14.0]) devem ser armazenados em uma lista para análise posterior.
+
+### Entrada
+
+A entrada consiste em várias linhas. Cada linha contém um único número de ponto flutuante. O último número da entrada será sempre `-1.0`.
+
+### Saída
+
+Após o término da leitura do lote, o programa deve analisar os dados válidos que foram armazenados e imprimir um relatório.
+
+  * **Se houver pelo menos um dado válido,** a saída deve ser no seguinte formato:
+    
+```
+    Numero de coletas validas: W
+    pH maximo: X
+    pH minimo: Y
+    pH medio: Z
+```
+A média deve ser colocada com precisão de 1 casa decimal, o resto não terá precisão.
+  * **Se nenhum dado válido for coletado,** o programa deve imprimir a mensagem:
+```
+    Nenhum dado valido foi coletado.
+```
+
+### Dica
+
+  * Use um loop `while True` para a leitura contínua.
+  * Dentro do loop, leia o número. A primeira verificação deve ser se o número é o código de término (`-1.0`). Se for, use `break`.
+  * A segunda verificação deve ser se a leitura é inválida (menor que 0 ou maior que 14). Se for, use `continue` para pular para a próxima leitura.
+  * Se a leitura for válida, adicione-a a uma lista.
+  * Após o loop, verifique se a lista de leituras válidas não está vazia antes de calcular a média, o máximo e o mínimo para evitar erros.
+  * Utilize `max()` e `min()` para calcular o máximo e mínimo
+
+### Exemplo
+
+*Entrada*
+
+```
+7.1
+7.0
+15.2
+6.9
+-2.0
+7.2
+-1.0
+```
+
+*Saída*
+
+```
+Numero de coletas validas: 4
+pH maximo: 7.2
+pH minimo: 6.9
+pH medio: 7.05
+```
+
+*Explicação: Os valores `15.2` e `-2.0` foram ignorados. A análise foi feita com a lista `[7.1, 7.0, 6.9, 7.2]`.*

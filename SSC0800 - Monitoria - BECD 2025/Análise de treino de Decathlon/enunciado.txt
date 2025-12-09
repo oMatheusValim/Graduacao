@@ -1,0 +1,76 @@
+Um atleta de decathlon está registrando seus treinos diários em um sistema. Cada registro de treino corresponde a uma de duas modalidades: **Arremesso de Peso** ou **Corrida de Distância**. Para simplificar, ele anota o tipo de prova com a letra 'P' (para Peso) ou 'D' (para Distância).
+
+Sua tarefa é criar um programa que leia os dados de um único treino e calcule o resultado correspondente. O programa precisa primeiro identificar qual foi a modalidade treinada e, em seguida, processar os dados específicos daquele treino.
+
+A lógica é a seguinte:
+
+1.  O programa lê o tipo de prova.
+2.  **Se for 'P'**, ele receberá as marcas de 3 arremessos e deverá encontrar a melhor delas.
+3.  **Se for 'D'**, ele receberá a distância e o tempo da corrida e deverá calcular o *pace* do atleta (o tempo médio para percorrer um quilômetro).
+
+### Entrada
+
+A entrada consiste em duas linhas:
+
+1.  A primeira linha contém um único caractere: `'P'` ou `'D'`, indicando a modalidade. Este caractere pode conter espaços em branco antes ou depois, que devem ser ignorados.
+2.  A segunda linha varia de acordo com a modalidade informada na primeira linha:
+      * Se a modalidade for `'P'`, as próximas **3 linhas** conterão números de ponto flutuante, representando as distâncias (em metros) de três arremessos.
+      * Se a modalidade for `'D'`, as próximas **2 linhas** conterão números de ponto flutuante: o primeiro é a distância total da corrida (em metros) e o segundo é o tempo total (em minutos).
+
+### Saída
+
+A saída deve ser uma única linha, formatada de acordo com a modalidade:
+
+  * Para a prova de Peso (`'P'`), imprima: `Melhor marca: X`
+      * Onde `X` é o maior valor entre os três arremessos, formatado com uma casa decimal.
+  * Para a prova de Distância (`'D'`), imprima: `Pace: Y min/km`
+      * Onde `Y` é o pace calculado pela fórmula: ` pace  = tempo/minutos tal que [pace]  = distancia/metros`. O resultado deve ser formatado com duas casas decimais.
+
+### Dica para o Aluno
+
+Lembre-se de usar:
+
+  * `.strip()` para limpar a primeira linha de entrada.
+  * `float()` para converter os textos em números.
+  * `.2f` para formatar duas casas decimais
+
+-----
+
+### Exemplos de Entrada e Saída
+
+**Exemplo 1**
+
+*Entrada*
+
+```
+P
+14.5 
+15.2
+14.9
+```
+
+*Saída*
+
+```
+Melhor marca: 15.2
+```
+
+-----
+
+**Exemplo 2**
+
+*Entrada*
+
+```
+D 
+5000
+25.5
+```
+
+*Saída*
+
+```
+Pace: 5.10 min/km
+```
+
+*Explicação do Pace: 25.5 minutos / (5000 metros / 1000) = 25.5 / 5 km = 5.10 min/km.*

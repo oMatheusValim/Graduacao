@@ -1,0 +1,60 @@
+Uma plataforma online separa seus usuários em 4 divisões de acordo com a pontuação (*rating*) de cada um. As regras de classificação são as seguintes:
+
+  * **Divisão 1**: `pontuação >= 1900`
+  * **Divisão 2**: `1600 <= pontuação <= 1899`
+  * **Divisão 3**: `1400 <= pontuação <= 1599`
+  * **Divisão 4**: `pontuação <= 1399`
+
+Dada uma pontuação, sua tarefa é criar um programa que determine e imprima a qual divisão o usuário pertence.
+
+-----
+
+### Entrada
+
+A primeira linha da entrada contém um inteiro **t**, o número de casos de teste.
+
+A descrição de cada caso de teste consiste em uma única linha contendo um inteiro **pontuação**.
+
+-----
+
+### Saída
+
+Para cada caso de teste, imprima uma única linha contendo a divisão correta no formato `"Divisao X"`, onde **X** é o número inteiro da divisão (de 1 a 4).
+
+-----
+
+### Exemplo
+
+*Entrada*
+
+```
+7
+-789
+1299
+1300
+1399
+1400
+1679
+2300
+```
+
+*Saída*
+
+```
+Divisao 4
+Divisao 4
+Divisao 4
+Divisao 4
+Divisao 3
+Divisao 2
+Divisao 1
+```
+
+-----
+
+#### Explicação do Exemplo
+
+  * Para os quatro primeiros casos, as pontuações **-789**, **1299**, **1300** e **1399** são todas menores ou iguais a 1399, portanto, pertencem à Divisão 4.
+  * Para o quinto caso, a pontuação **1400** está no intervalo de 1400 a 1599, pertencendo à Divisão 3.
+  * Para o sexto caso, a pontuação **1679** está no intervalo de 1600 a 1899, pertencendo à Divisão 2.
+  * Para o sétimo caso, a pontuação **2300** é maior ou igual a 1900, pertencendo à Divisão 1.

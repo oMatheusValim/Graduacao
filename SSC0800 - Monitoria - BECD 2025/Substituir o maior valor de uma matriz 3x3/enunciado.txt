@@ -1,0 +1,37 @@
+Em análise de dados, uma tarefa comum é identificar e transformar valores extremos. Imagine uma matriz 3x3 que representa as leituras de uma grade de sensores. Pode ser útil, por exemplo, localizar a leitura mais alta e substituí-la por um valor de alerta, como `-1`.
+
+Sua tarefa é criar um programa que leia os elementos de uma matriz 3x3. O programa deve primeiro encontrar o maior valor presente na matriz e, em seguida, substituir **todas as ocorrências** desse valor máximo pelo número `-1`. Por fim, o programa deve imprimir a matriz resultante.
+
+### Entrada
+
+A entrada consiste em **9 linhas**. Cada linha contém um único número inteiro. Esses 9 números preenchem a matriz 3x3, lidos da esquerda para a direita, de cima para baixo (os 3 primeiros números formam a primeira linha, os 3 seguintes formam a segunda, e os 3 últimos formam a terceira linha).
+
+### Saída
+
+A saída deve consistir em **3 linhas**. Cada linha deve conter três números inteiros, separados por um único espaço, representando a matriz modificada.
+
+### Exemplo
+
+*Entrada*
+
+```
+2
+7
+6
+9
+5
+1
+4
+3
+8
+```
+
+*Saída*
+
+```
+2 7 6
+-1 5 1
+4 3 8
+```
+
+-----

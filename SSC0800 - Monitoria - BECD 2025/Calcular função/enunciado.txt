@@ -1,0 +1,27 @@
+Para um número inteiro positivo `n`, vamos definir a função `f(n)` da seguinte maneira:
+
+`f(n) = -1 + 2 - 3 + 4 - 5 + ... + (-1)^n * n`
+
+Sua tarefa é criar um programa que calcule o valor de `f(n)` para um dado inteiro `n`.
+
+### Entrada
+
+A entrada consiste em uma única linha contendo um número inteiro positivo `n`.
+
+### Saída
+
+O programa deve imprimir o valor de `f(n)` em uma única linha.
+
+### Exemplos
+
+| Entrada | Saída |
+| :------ | :---- |
+| `4`     | `2`   |
+| `5`     | `-3`  |
+
+---
+* **Explicação do Exemplo 1 (n=4):**
+    `f(4) = -1 + 2 - 3 + 4 = 2`
+
+* **Explicação do Exemplo 2 (n=5):**
+    `f(5) = -1 + 2 - 3 + 4 - 5 = -3`

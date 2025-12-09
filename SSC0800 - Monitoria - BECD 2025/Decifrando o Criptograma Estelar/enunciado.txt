@@ -1,0 +1,65 @@
+Você é um(a) estagiário(a) na Agência Espacial Brasileira e sua equipe acaba de receber uma transmissão misteriosa de uma sonda antiga, perdida há décadas. A mensagem está criptografada\! Felizmente, um cientista veterano encontrou anotações antigas que descrevem parte do sistema de criptografia: um "mapa de tradução" que associa símbolos estranhos a letras do nosso alfabeto.
+
+**Problema:**
+Sua missão é dupla:
+
+1.  Escrever um programa que use o mapa de tradução para **decifrar a mensagem** recebida.
+2.  Após decifrar, realizar uma **análise estatística** simples sobre a mensagem para ajudar os criptógrafos a entenderem melhor a estrutura da linguagem.
+
+**Regras da Criptografia:**
+
+  * O mapa de tradução associa um símbolo criptografado a uma letra.
+  * Qualquer caractere na mensagem que **não estiver** no mapa de tradução (como espaços, números ou pontuações) deve ser mantido como está no texto final.
+
+**Tarefa Final (Análise Estatística):**
+Após decifrar a mensagem, seu programa deve apresentar um relatório contendo:
+
+  * O número de caracteres que foram efetivamente traduzidos usando o mapa.
+  * A quantidade de símbolos **únicos** usados na mensagem criptografada original (ignorando espaços).
+  * A frequência de cada letra do alfabeto (`a-z`) na mensagem já decifrada.
+
+**Entrada:**
+
+  * A primeira linha contém um inteiro `M`, indicando o número de regras no mapa de tradução.
+  * As próximas `M` linhas contêm uma regra, no formato `"simbolo letra"`, separados por um espaço.
+  * A linha seguinte contém um inteiro `L`, o número de linhas da mensagem criptografada.
+  * As `L` linhas seguintes contêm a mensagem criptografada.
+
+**Saída:**
+O programa deve imprimir o relatório completo, no formato exato do exemplo abaixo. As letras na contagem de frequência devem estar em ordem alfabética.
+
+**EXEMPLO**
+
+Entrada
+```
+3
+& p
+/ r
+~ a
+1
+O c~minho de ped/~s. 123
+```
+
+Saída
+```
+Mensagem Decifrada:
+O caminho de pedras. 123
+
+Estatísticas:
+Caracteres traduzidos: 3
+Símbolos únicos na mensagem original: 17
+
+Frequência de Letras (a-z):
+- a: 2
+- c: 1
+- d: 2
+- e: 2
+- h: 1
+- i: 1
+- m: 1
+- n: 1
+- o: 2
+- p: 1
+- r: 1
+- s: 1
+```

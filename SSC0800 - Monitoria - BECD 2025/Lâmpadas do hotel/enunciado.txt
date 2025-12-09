@@ -1,0 +1,59 @@
+Você está em um quarto de hotel com duas lâmpadas, A e B. O estado inicial delas é representado por IA e IB, onde 0 significa que a lâmpada está apagada e 1 significa que está acesa.
+
+No quarto, existem dois interruptores com as seguintes funções:
+
+    Interruptor 1: Muda o estado apenas da lâmpada A (de 0 para 1 ou de 1 para 0).
+
+    Interruptor 2: Muda o estado de ambas as lâmpadas (A e B) ao mesmo tempo.
+
+Dado o estado inicial (IA, IB) e um estado final desejado (FA, FB), determine o número mínimo de vezes que os interruptores devem ser acionados para atingir a configuração final.
+
+Entrada
+
+A entrada consiste em 4 linhas contendo quatro números inteiros: IA, IB, FA e FB, nessa ordem.
+
+Saída
+
+Seu programa deve imprimir um único número inteiro: o número mínimo de acionamentos de interruptores necessários para ir da configuração inicial para a final.
+
+### Exemplos
+
+**Exemplo 1**
+
+*Entrada*
+
+```
+0
+0
+1
+1
+```
+
+*Saída*
+
+```
+1
+```
+
+Foi necessário apenas apertar o segundo interruptor, pois trocou o estado de ambas as lâmpadas.
+
+-----
+
+**Exemplo 2**
+
+*Entrada*
+
+```
+0
+1
+0
+0
+```
+
+*Saída*
+
+```
+2
+```
+
+Dessa vez, foi necessário apertar o segundo interruptor (estado muda de `0 1` para `1 0`) e depois o primeiro (estado muda de `1 0` para `0 0`).

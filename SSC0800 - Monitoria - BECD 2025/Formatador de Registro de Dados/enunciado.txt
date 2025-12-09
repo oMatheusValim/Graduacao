@@ -1,0 +1,25 @@
+Um analista de dados júnior recebeu um arquivo de log onde cada registro de usuário está compactado em uma única **string**, com os campos separados por um hífen `-`. Antes de inserir os dados em um banco de dados, ele precisa extrair as informações, limpá-las e formatá-las em um padrão legível.
+
+**Problema:**
+Sua tarefa é criar um programa que leia uma única linha de dados brutos e a transforme em um relatório formatado. A string de entrada sempre conterá quatro campos: `ID`, `NOME`, `IDADE` e `CIDADE`.
+
+**Regras de Formatação:**
+
+1.  **ID:** O valor deve ser extraído e convertido para letras minúsculas.
+2.  **NOME:** O valor deve ser extraído e formatado em "Title Case" (cada palavra começa com maiúscula).
+3.  **IDADE:** O valor (que pode ter zeros à esquerda, como "028") deve ser extraído e convertido para um número inteiro.
+4.  **CIDADE:** O valor deve ser extraído e convertido para letras maiúsculas.
+
+**Entrada:**
+A entrada consiste em uma única linha contendo a string de registro bruto, como `"ID:usr101-NOME:Ana Silva-IDADE:028-CIDADE:Sao Carlos"`. Os campos podem aparecer em qualquer ordem.
+
+**Saída:**
+O programa deve imprimir um relatório de 4 linhas no formato exato abaixo, com os dados extraídos e formatados:
+
+```
+--- Ficha Cadastral ---
+ID: [id_formatado]
+Nome: [nome_formatado]
+Idade: [idade_formatada]
+Cidade: [cidade_formatada]
+```

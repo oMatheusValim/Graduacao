@@ -1,0 +1,71 @@
+Joãozinho percebeu que a gangorra do parquinho de sua nova escola não é simétrica, pois uma de suas extremidades é mais longa que a outra. Após brincar com um amigo de mesmo peso, ele notou que, dependendo do lado em que sentavam, a gangorra sempre pendia para um dos lados.
+
+Sem entender a situação, Joãozinho pediu ajuda a um amigo que estuda física. O amigo explicou que o equilíbrio da gangorra não depende apenas do peso, mas do **torque** gerado de cada lado. O torque é uma força de rotação que, neste caso, é calculada multiplicando-se o peso da criança (`P`) pela distância dela até o ponto de apoio (`C`).
+
+Para que a gangorra fique perfeitamente equilibrada, o torque do lado esquerdo deve ser **exatamente igual** ao torque do lado direito. A fórmula que representa essa igualdade é:
+
+` P1 * C1 = P2 * C2`
+
+Onde:
+
+  * `P1` e `C1` são o peso e o comprimento do lado esquerdo.
+  * `P2` e `C2` são o peso e o comprimento do lado direito.
+
+Com essa nova informação, Joãozinho quer criar um programa que, dados os pesos e os comprimentos, determine se a gangorra fica equilibrada ou para qual lado ela irá pender.
+
+### Entrada
+
+A entrada consiste em 4 linha contendo 4 números inteiros: `P1`, `C1`, `P2` e `C2`, nesta ordem.
+
+### Saída
+
+Seu programa deve imprimir um único número inteiro:
+
+  * `0` se a gangorra estiver equilibrada.
+  * `-1` se a gangorra pender para o lado esquerdo (a criança da esquerda desce).
+  * `1` se a gangorra pender para o lado direito (a criança da direita desce).
+
+### Exemplos
+
+**Exemplo 1**
+
+*Entrada*
+
+```
+30
+100
+60
+50
+```
+
+*Saída*
+
+```
+0
+```
+
+-----
+
+**Exemplo 2**
+
+*Entrada*
+
+```
+40
+40
+38
+60
+```
+
+*Saída*
+
+```
+1
+```
+
+---
+
+  * **Explicação do Exemplo 1:**
+    1.  Cálculo do torque esquerdo: `P1 * C1 = 30 * 100 = 3000`
+    2.  Cálculo do torque direito: `P2 * C2 = 60 * 50 = 3000`
+    3.  Como o torque esquerdo é igual ao torque direito (`3000 = 3000`), a gangorra está em equilíbrio. A saída é `0`.

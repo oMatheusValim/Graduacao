@@ -1,0 +1,18 @@
+Sua tarefa é criar um programa que, dado um número inteiro `X`, encontre e imprima todos os seus divisores. Um número `D` é considerado um divisor de `X` se a divisão de `X` por `D` for exata (ou seja, o resto da divisão é igual a zero).
+
+Os divisores devem incluir o número 1 e o próprio número `X`.
+
+### Entrada
+
+A entrada consiste em uma única linha contendo um número inteiro `X`.
+
+### Saída
+
+O programa deve imprimir uma única linha contendo todos os divisores de `X`, em **ordem crescente**, separados por um único espaço em branco.
+
+### Exemplos
+
+| Entrada | Saída           |
+| :------ | :-------------- |
+| `6`     | `1 2 3 6`       |
+| `20`    | `1 2 4 5 10 20` |

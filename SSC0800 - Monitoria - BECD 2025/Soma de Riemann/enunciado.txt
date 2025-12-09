@@ -1,0 +1,73 @@
+Em estatística, a **Distribuição Normal** (ou Curva de Gauss) é uma das mais importantes distribuições de probabilidade. A probabilidade de um evento ocorrer dentro de um certo intervalo é dada pela área sob a curva nesse intervalo.
+
+Calcular essa área exatamente requer uma integral complexa. No entanto, podemos obter uma excelente **aproximação** usando um método numérico chamado **Soma de Riemann**. A ideia é dividir a área desejada em um grande número de retângulos muito finos e, em seguida, somar a área de todos esses retângulos.
+
+Sua tarefa é criar um programa que aproxime a probabilidade `P(0 < Z < z)`, que corresponde à área sob a curva da distribuição normal padrão entre `0` e um valor `z` positivo.
+
+A altura da curva em qualquer ponto `x` é dada pela Função de Densidade de Probabilidade (FDP) da distribuição normal padrão:
+
+![equacao](https://quicklatex.com/cache3/42/ql_d669e1ec12c6c2c0e0a3e2e8b2bb2f42_l3.png)
+
+### O Método (Passo a Passo)
+
+Para calcular a área de `0` a `z` usando `n` retângulos:
+
+1.  **Calcule a largura de cada retângulo:** A largura total do intervalo é `z`. Se usarmos `n` retângulos, cada um terá uma largura `Delta_x = z/n`.
+2.  **Percorra cada retângulo:** Usando um loop, para cada retângulo `i` (de `0` a `n`):
+    a. Encontre o ponto médio do retângulo: `x_i = (i * Delta_x) + Delta_x/2`.
+    b. Calcule a altura do retângulo nesse ponto usando a fórmula da FDP: `altura_i = phi(x_i)`.
+    c. Calcule a área do retângulo: `area_i = altura_i * Delta_x`.
+3.  **Some as áreas:** A área total é o somatório de todas as áreas individuais calculadas no loop.
+
+### Entrada
+
+A entrada consiste em 2 linhas com os valores:
+
+1.  Um número de ponto flutuante `z` `(0 < z < 4.0)`, o limite superior da área.
+2.  Um número inteiro `n` `(100 < n < 100000)`, o número de retângulos a serem usados na aproximação.
+
+### Saída
+
+O programa deve imprimir uma única linha contendo o valor da área aproximada, formatado com **4 casas decimais**.
+
+### Dica
+
+Você precisará da biblioteca `math` do Python para obter os valores de $\\pi$ (`math.pi`), da raiz quadrada (`math.sqrt`) e da exponencial (`math.exp`).
+
+### Exemplos
+
+**Exemplo 1**
+
+*Entrada*
+
+```
+1.0
+1000
+```
+
+*Saída*
+
+```
+0.3413
+```
+
+*Explicação: O programa calcula a área sob a curva normal de 0 a 1.0, usando 1000 retângulos. O valor real é aproximadamente 0.34134, e a aproximação é muito boa.*
+
+-----
+
+**Exemplo 2**
+
+*Entrada*
+
+```
+1.96
+5000
+```
+
+*Saída*
+
+```
+0.4750
+```
+
+*Explicação: Este é um valor famoso em estatística. A área entre -1.96 e +1.96 corresponde a 95% da probabilidade total. A área de 0 a 1.96, que calculamos aqui, é metade disso, ou seja, 47.5% (0.4750).*

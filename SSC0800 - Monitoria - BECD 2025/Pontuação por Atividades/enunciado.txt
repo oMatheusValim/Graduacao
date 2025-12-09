@@ -1,0 +1,94 @@
+Uma escola organiza várias atividades extracurriculares para seus alunos, e cada uma tem um valor de pontos associado:
+
+  * **Esportes**: 2 pontos por atividade
+  * **Artes**: 3 pontos por atividade
+  * **Ciências**: 5 pontos por atividade
+
+No final do mês, a escola distribui prêmios com base na pontuação total acumulada. A regra para a distribuição de prêmios é a seguinte:
+
+  * **Medalha de Ouro**: Se a soma dos pontos for maior ou igual a 200.
+  * **Medalha de Prata**: Se a soma dos pontos for maior ou igual a 150, mas menor que 200.
+  * **Medalha de Bronze**: Se a soma dos pontos for maior ou igual a 100, mas menor que 150.
+  * **Nenhum Prêmio**: Se a soma dos pontos for menor que 100.
+
+Você foi solicitado a criar um programa que, dados os números de atividades de esportes, artes e ciências realizadas, determine qual prêmio os alunos merecem.
+
+### Entrada
+
+A entrada consiste em três linhas, cada uma contendo um número inteiro:
+
+1.  A primeira linha contém o inteiro `E`: o número de atividades de **esportes**.
+2.  A segunda linha contém o inteiro `A`: o número de atividades de **artes**.
+3.  A terceira linha contém o inteiro `C`: o número de atividades de **ciências**.
+
+### Saída
+
+O programa deve imprimir uma única linha contendo um único caractere para indicar o prêmio:
+
+  * `'O'` para medalha de ouro.
+  * `'S'` para medalha de prata.
+  * `'B'` para medalha de bronze.
+  * `'N'` se não houver prêmio.
+
+### Exemplos
+
+**Exemplo 1**
+
+*Entrada*
+
+```
+50
+30
+10
+```
+
+*Saída*
+
+```
+O
+```
+
+-----
+
+**Exemplo 2**
+
+*Entrada*
+
+```
+20
+20
+10
+```
+
+*Saída*
+
+```
+S
+```
+
+-----
+
+**Exemplo 3**
+
+*Entrada*
+
+```
+10
+5
+3
+```
+
+*Saída*
+
+```
+N
+```
+
+-----
+
+  * **Explicação do Exemplo 1 (`50 30 10`):**
+    1.  Cálculo dos pontos de Esportes: `50 * 2 = 100`
+    2.  Cálculo dos pontos de Artes: `30 * 3 = 90`
+    3.  Cálculo dos pontos de Ciências: `10 * 5 = 50`
+    4.  Soma total: `100 + 90 + 50 = 240`
+    5.  Como `240` é maior ou igual a `200`, o prêmio é uma Medalha de Ouro (`O`).
